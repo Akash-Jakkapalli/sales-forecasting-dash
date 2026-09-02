@@ -1,0 +1,1001 @@
+deal_id,company,industry,sales_rep,lead_source,deal_stage,deal_value,probability,created_date,expected_close_date,actual_close_date,status
+DEAL-0001,Company 1,Finance,Arjun,LinkedIn,Proposal,1742743,0.5,2025-04-13,2025-08-08,,Open
+DEAL-0002,Company 2,Healthcare,Ananya,Cold Call,Qualification,4094887,0.25,2026-04-04,2026-07-31,,Open
+DEAL-0003,Company 3,Retail,Vikram,Website,Closed Lost,1816891,0.0,2025-12-10,2026-05-03,2026-05-03,Lost
+DEAL-0004,Company 4,Technology,Arjun,LinkedIn,Proposal,1446025,0.5,2026-04-05,2026-07-17,,Open
+DEAL-0005,Company 5,Manufacturing,Ananya,Partner,Prospecting,3580409,0.1,2026-05-26,2026-06-24,,Open
+DEAL-0006,Company 6,Education,Arjun,Cold Call,Closed Lost,2466182,0.0,2026-07-17,2026-12-09,2026-12-09,Lost
+DEAL-0007,Company 7,Finance,Vikram,Referral,Closed Lost,3466664,0.0,2025-06-16,2025-07-09,2025-07-09,Lost
+DEAL-0008,Company 8,Healthcare,Ananya,Website,Proposal,3447723,0.5,2025-12-06,2025-12-28,,Open
+DEAL-0009,Company 9,Manufacturing,Priya,Email Campaign,Closed Won,1823415,1.0,2026-07-16,2026-12-11,2026-12-11,Won
+DEAL-0010,Company 10,Finance,Priya,Partner,Closed Won,3634702,1.0,2026-04-22,2026-06-19,2026-06-19,Won
+DEAL-0011,Company 11,Education,Vikram,Referral,Closed Lost,3097262,0.0,2025-09-27,2025-11-20,2025-11-20,Lost
+DEAL-0012,Company 12,Education,Rahul,Cold Call,Qualification,3544679,0.25,2025-02-22,2025-07-10,,Open
+DEAL-0013,Company 13,Technology,Sneha,LinkedIn,Prospecting,1475472,0.1,2025-01-15,2025-02-07,,Open
+DEAL-0014,Company 14,Healthcare,Vikram,Referral,Negotiation,1787095,0.75,2026-05-14,2026-06-30,,Open
+DEAL-0015,Company 15,Technology,Sneha,Referral,Prospecting,2998089,0.1,2025-08-19,2026-01-15,,Open
+DEAL-0016,Company 16,Education,Arjun,Email Campaign,Qualification,4595583,0.25,2025-02-02,2025-04-19,,Open
+DEAL-0017,Company 17,Technology,Vikram,Referral,Prospecting,541234,0.1,2026-07-01,2026-11-23,,Open
+DEAL-0018,Company 18,Finance,Priya,Email Campaign,Proposal,947421,0.5,2026-05-18,2026-10-16,,Open
+DEAL-0019,Company 19,Education,Sneha,Partner,Prospecting,2400770,0.1,2026-04-06,2026-06-11,,Open
+DEAL-0020,Company 20,Retail,Vikram,LinkedIn,Proposal,3922998,0.5,2026-04-30,2026-06-12,,Open
+DEAL-0021,Company 21,Manufacturing,Rahul,Cold Call,Closed Won,4624293,1.0,2025-08-31,2025-10-29,2025-10-29,Won
+DEAL-0022,Company 22,Finance,Sneha,Website,Proposal,4444539,0.5,2025-01-28,2025-04-27,,Open
+DEAL-0023,Company 23,Healthcare,Ananya,Website,Prospecting,2534413,0.1,2025-08-19,2026-01-01,,Open
+DEAL-0024,Company 24,Technology,Ananya,Cold Call,Prospecting,4743350,0.1,2025-09-16,2026-03-04,,Open
+DEAL-0025,Company 25,Healthcare,Ananya,Website,Qualification,3162754,0.25,2025-08-13,2026-01-26,,Open
+DEAL-0026,Company 26,Retail,Ananya,Referral,Closed Lost,1936013,0.0,2025-04-23,2025-06-28,2025-06-28,Lost
+DEAL-0027,Company 27,Healthcare,Rahul,Referral,Prospecting,466880,0.1,2026-01-22,2026-04-27,,Open
+DEAL-0028,Company 28,Healthcare,Ananya,Referral,Prospecting,3045765,0.1,2025-08-08,2025-12-29,,Open
+DEAL-0029,Company 29,Retail,Arjun,LinkedIn,Closed Lost,2272809,0.0,2025-02-22,2025-08-15,2025-08-15,Lost
+DEAL-0030,Company 30,Finance,Ananya,Partner,Qualification,1791093,0.25,2026-02-05,2026-06-15,,Open
+DEAL-0031,Company 31,Healthcare,Ananya,Cold Call,Closed Won,1965631,1.0,2026-05-26,2026-10-11,2026-10-11,Won
+DEAL-0032,Company 32,Retail,Sneha,Website,Proposal,960681,0.5,2026-02-07,2026-07-18,,Open
+DEAL-0033,Company 33,Manufacturing,Priya,LinkedIn,Negotiation,3495376,0.75,2026-07-05,2026-12-17,,Open
+DEAL-0034,Company 34,Technology,Priya,Website,Closed Won,4889567,1.0,2025-09-20,2025-12-03,2025-12-03,Won
+DEAL-0035,Company 35,Healthcare,Rahul,Website,Closed Won,2522189,1.0,2025-10-31,2025-12-21,2025-12-21,Won
+DEAL-0036,Company 36,Retail,Ananya,Website,Negotiation,4942306,0.75,2025-04-09,2025-09-01,,Open
+DEAL-0037,Company 37,Retail,Ananya,LinkedIn,Prospecting,428480,0.1,2026-08-10,2026-12-06,,Open
+DEAL-0038,Company 38,Finance,Ananya,Referral,Negotiation,2971944,0.75,2025-04-22,2025-08-07,,Open
+DEAL-0039,Company 39,Retail,Rahul,Partner,Qualification,1410828,0.25,2025-06-12,2025-12-04,,Open
+DEAL-0040,Company 40,Healthcare,Rahul,Website,Negotiation,4724351,0.75,2025-10-04,2026-02-23,,Open
+DEAL-0041,Company 41,Manufacturing,Ananya,Partner,Qualification,4351754,0.25,2026-04-05,2026-08-16,,Open
+DEAL-0042,Company 42,Healthcare,Arjun,Referral,Qualification,1670197,0.25,2025-02-07,2025-03-01,,Open
+DEAL-0043,Company 43,Technology,Vikram,Email Campaign,Negotiation,2987629,0.75,2025-10-04,2026-02-06,,Open
+DEAL-0044,Company 44,Retail,Sneha,Partner,Closed Won,3822962,1.0,2026-05-31,2026-07-01,2026-07-01,Won
+DEAL-0045,Company 45,Retail,Rahul,Cold Call,Closed Lost,1181565,0.0,2026-04-22,2026-08-13,2026-08-13,Lost
+DEAL-0046,Company 46,Healthcare,Sneha,Website,Proposal,2937004,0.5,2025-10-07,2026-01-24,,Open
+DEAL-0047,Company 47,Healthcare,Priya,Website,Qualification,4385868,0.25,2025-04-26,2025-10-18,,Open
+DEAL-0048,Company 48,Finance,Ananya,Referral,Closed Lost,3130761,0.0,2026-07-20,2026-08-27,2026-08-27,Lost
+DEAL-0049,Company 49,Technology,Rahul,LinkedIn,Closed Won,1633593,1.0,2025-06-04,2025-07-05,2025-07-05,Won
+DEAL-0050,Company 50,Healthcare,Priya,Website,Proposal,548863,0.5,2025-09-03,2025-10-13,,Open
+DEAL-0051,Company 51,Technology,Sneha,Cold Call,Prospecting,4908380,0.1,2026-02-12,2026-07-11,,Open
+DEAL-0052,Company 52,Manufacturing,Sneha,LinkedIn,Negotiation,2749015,0.75,2025-01-20,2025-06-27,,Open
+DEAL-0053,Company 53,Manufacturing,Arjun,Website,Qualification,1222622,0.25,2026-04-16,2026-07-05,,Open
+DEAL-0054,Company 54,Technology,Sneha,Referral,Proposal,4529125,0.5,2026-07-29,2026-11-06,,Open
+DEAL-0055,Company 55,Education,Sneha,Email Campaign,Qualification,511243,0.25,2025-02-23,2025-03-17,,Open
+DEAL-0056,Company 56,Retail,Ananya,LinkedIn,Prospecting,1054646,0.1,2025-01-05,2025-05-08,,Open
+DEAL-0057,Company 57,Healthcare,Rahul,LinkedIn,Proposal,3429569,0.5,2025-09-26,2026-03-17,,Open
+DEAL-0058,Company 58,Manufacturing,Rahul,Email Campaign,Qualification,1473286,0.25,2025-02-27,2025-07-08,,Open
+DEAL-0059,Company 59,Manufacturing,Ananya,Website,Prospecting,4994505,0.1,2025-02-27,2025-04-16,,Open
+DEAL-0060,Company 60,Education,Vikram,Partner,Qualification,4431932,0.25,2026-05-03,2026-06-02,,Open
+DEAL-0061,Company 61,Healthcare,Vikram,Partner,Qualification,3662610,0.25,2025-09-04,2026-02-09,,Open
+DEAL-0062,Company 62,Technology,Ananya,Partner,Prospecting,3650333,0.1,2025-10-12,2025-12-12,,Open
+DEAL-0063,Company 63,Retail,Rahul,Partner,Closed Won,814121,1.0,2026-03-29,2026-07-06,2026-07-06,Won
+DEAL-0064,Company 64,Retail,Priya,Email Campaign,Prospecting,338790,0.1,2025-12-23,2026-03-16,,Open
+DEAL-0065,Company 65,Technology,Vikram,Cold Call,Closed Lost,3743305,0.0,2025-08-11,2025-11-29,2025-11-29,Lost
+DEAL-0066,Company 66,Technology,Sneha,LinkedIn,Prospecting,2699103,0.1,2026-05-31,2026-06-16,,Open
+DEAL-0067,Company 67,Retail,Arjun,Website,Proposal,2873100,0.5,2026-01-15,2026-05-10,,Open
+DEAL-0068,Company 68,Education,Vikram,Email Campaign,Closed Lost,4749303,0.0,2026-02-21,2026-04-20,2026-04-20,Lost
+DEAL-0069,Company 69,Technology,Priya,Cold Call,Prospecting,2814673,0.1,2025-10-29,2025-12-17,,Open
+DEAL-0070,Company 70,Education,Priya,Cold Call,Qualification,4039618,0.25,2026-02-22,2026-05-05,,Open
+DEAL-0071,Company 71,Education,Rahul,Email Campaign,Prospecting,2278636,0.1,2025-03-16,2025-04-20,,Open
+DEAL-0072,Company 72,Retail,Priya,Website,Proposal,2690328,0.5,2026-01-29,2026-05-22,,Open
+DEAL-0073,Company 73,Retail,Rahul,Cold Call,Closed Won,4172263,1.0,2025-04-06,2025-05-27,2025-05-27,Won
+DEAL-0074,Company 74,Technology,Rahul,Partner,Qualification,2784296,0.25,2025-10-06,2025-11-19,,Open
+DEAL-0075,Company 75,Healthcare,Arjun,Website,Qualification,1276607,0.25,2026-08-19,2027-01-21,,Open
+DEAL-0076,Company 76,Retail,Ananya,Email Campaign,Closed Won,4710456,1.0,2026-01-31,2026-02-23,2026-02-23,Won
+DEAL-0077,Company 77,Healthcare,Sneha,Website,Prospecting,4249790,0.1,2026-05-21,2026-08-12,,Open
+DEAL-0078,Company 78,Technology,Vikram,Cold Call,Closed Lost,1859891,0.0,2026-04-14,2026-09-19,2026-09-19,Lost
+DEAL-0079,Company 79,Education,Arjun,Cold Call,Closed Lost,3993334,0.0,2025-02-11,2025-06-27,2025-06-27,Lost
+DEAL-0080,Company 80,Technology,Priya,Referral,Prospecting,3285658,0.1,2025-08-23,2025-11-21,,Open
+DEAL-0081,Company 81,Finance,Rahul,Referral,Prospecting,2584629,0.1,2026-05-07,2026-10-09,,Open
+DEAL-0082,Company 82,Education,Rahul,Partner,Qualification,3715060,0.25,2025-07-13,2025-12-10,,Open
+DEAL-0083,Company 83,Retail,Sneha,Partner,Closed Lost,1583584,0.0,2026-05-15,2026-07-13,2026-07-13,Lost
+DEAL-0084,Company 84,Finance,Priya,LinkedIn,Proposal,4492987,0.5,2025-09-09,2025-12-23,,Open
+DEAL-0085,Company 85,Finance,Sneha,Partner,Proposal,3735501,0.5,2025-02-08,2025-07-13,,Open
+DEAL-0086,Company 86,Technology,Rahul,LinkedIn,Prospecting,3226083,0.1,2025-02-27,2025-05-13,,Open
+DEAL-0087,Company 87,Technology,Ananya,Cold Call,Qualification,4999499,0.25,2025-12-14,2026-02-22,,Open
+DEAL-0088,Company 88,Education,Ananya,Cold Call,Closed Lost,1921403,0.0,2025-05-14,2025-07-28,2025-07-28,Lost
+DEAL-0089,Company 89,Retail,Rahul,Referral,Prospecting,4976203,0.1,2025-07-22,2025-12-30,,Open
+DEAL-0090,Company 90,Technology,Vikram,Partner,Qualification,2164792,0.25,2025-02-16,2025-07-23,,Open
+DEAL-0091,Company 91,Finance,Ananya,Email Campaign,Negotiation,3345887,0.75,2025-09-16,2025-10-12,,Open
+DEAL-0092,Company 92,Retail,Sneha,Referral,Qualification,4310507,0.25,2026-02-12,2026-06-28,,Open
+DEAL-0093,Company 93,Retail,Arjun,Partner,Prospecting,1394027,0.1,2025-11-12,2026-01-06,,Open
+DEAL-0094,Company 94,Education,Ananya,LinkedIn,Qualification,2054168,0.25,2025-05-25,2025-11-12,,Open
+DEAL-0095,Company 95,Technology,Priya,Referral,Closed Lost,4682965,0.0,2025-09-10,2025-11-10,2025-11-10,Lost
+DEAL-0096,Company 96,Technology,Ananya,Website,Prospecting,3514442,0.1,2025-08-30,2026-01-10,,Open
+DEAL-0097,Company 97,Education,Priya,Website,Closed Lost,4121647,0.0,2025-05-26,2025-06-20,2025-06-20,Lost
+DEAL-0098,Company 98,Technology,Vikram,Partner,Proposal,4395760,0.5,2026-04-06,2026-07-28,,Open
+DEAL-0099,Company 99,Manufacturing,Arjun,Cold Call,Proposal,1772320,0.5,2026-04-21,2026-09-15,,Open
+DEAL-0100,Company 100,Manufacturing,Rahul,Partner,Qualification,213273,0.25,2025-01-23,2025-05-02,,Open
+DEAL-0101,Company 101,Manufacturing,Rahul,Website,Qualification,4027266,0.25,2025-01-01,2025-01-19,,Open
+DEAL-0102,Company 102,Finance,Priya,Referral,Prospecting,4090479,0.1,2026-05-03,2026-08-20,,Open
+DEAL-0103,Company 103,Retail,Rahul,Partner,Closed Won,3632069,1.0,2026-03-14,2026-05-17,2026-05-17,Won
+DEAL-0104,Company 104,Technology,Vikram,Cold Call,Prospecting,1729748,0.1,2025-08-24,2025-11-03,,Open
+DEAL-0105,Company 105,Finance,Priya,Referral,Qualification,1584026,0.25,2026-08-01,2026-09-22,,Open
+DEAL-0106,Company 106,Retail,Ananya,Referral,Proposal,2623619,0.5,2025-12-01,2026-03-04,,Open
+DEAL-0107,Company 107,Finance,Rahul,Referral,Closed Lost,1665952,0.0,2026-07-17,2026-12-10,2026-12-10,Lost
+DEAL-0108,Company 108,Education,Priya,Cold Call,Prospecting,700199,0.1,2026-05-23,2026-06-12,,Open
+DEAL-0109,Company 109,Technology,Arjun,Partner,Proposal,2576954,0.5,2025-05-06,2025-09-12,,Open
+DEAL-0110,Company 110,Healthcare,Arjun,LinkedIn,Prospecting,1681107,0.1,2026-06-04,2026-07-13,,Open
+DEAL-0111,Company 111,Healthcare,Arjun,Cold Call,Prospecting,2000367,0.1,2025-04-03,2025-08-17,,Open
+DEAL-0112,Company 112,Education,Rahul,Email Campaign,Prospecting,2432357,0.1,2025-01-05,2025-01-20,,Open
+DEAL-0113,Company 113,Healthcare,Rahul,Referral,Prospecting,4296049,0.1,2025-12-12,2026-02-09,,Open
+DEAL-0114,Company 114,Manufacturing,Arjun,Cold Call,Negotiation,2956158,0.75,2025-09-06,2025-11-15,,Open
+DEAL-0115,Company 115,Healthcare,Vikram,Email Campaign,Closed Won,4832883,1.0,2025-12-03,2026-04-09,2026-04-09,Won
+DEAL-0116,Company 116,Manufacturing,Priya,Cold Call,Proposal,967559,0.5,2025-10-30,2025-12-11,,Open
+DEAL-0117,Company 117,Manufacturing,Arjun,Email Campaign,Prospecting,2128007,0.1,2026-06-10,2026-06-27,,Open
+DEAL-0118,Company 118,Technology,Vikram,Email Campaign,Qualification,680265,0.25,2025-10-01,2026-02-07,,Open
+DEAL-0119,Company 119,Retail,Rahul,Website,Qualification,3770464,0.25,2025-02-08,2025-06-28,,Open
+DEAL-0120,Company 120,Retail,Ananya,Referral,Negotiation,517010,0.75,2026-06-09,2026-11-16,,Open
+DEAL-0121,Company 121,Manufacturing,Sneha,Referral,Prospecting,73275,0.1,2026-01-04,2026-04-29,,Open
+DEAL-0122,Company 122,Education,Ananya,Cold Call,Qualification,2050609,0.25,2025-11-16,2026-01-28,,Open
+DEAL-0123,Company 123,Manufacturing,Ananya,Email Campaign,Prospecting,3909744,0.1,2026-01-12,2026-02-16,,Open
+DEAL-0124,Company 124,Technology,Arjun,LinkedIn,Prospecting,4431514,0.1,2025-12-16,2026-04-03,,Open
+DEAL-0125,Company 125,Manufacturing,Priya,Email Campaign,Negotiation,1083255,0.75,2026-06-27,2026-12-10,,Open
+DEAL-0126,Company 126,Technology,Ananya,Partner,Prospecting,1221459,0.1,2025-03-16,2025-07-26,,Open
+DEAL-0127,Company 127,Healthcare,Vikram,Email Campaign,Proposal,575134,0.5,2026-07-28,2026-09-06,,Open
+DEAL-0128,Company 128,Technology,Sneha,Website,Proposal,114323,0.5,2025-11-22,2025-12-26,,Open
+DEAL-0129,Company 129,Manufacturing,Arjun,Email Campaign,Qualification,914909,0.25,2025-03-31,2025-05-21,,Open
+DEAL-0130,Company 130,Education,Priya,Email Campaign,Qualification,4526576,0.25,2025-09-16,2025-10-10,,Open
+DEAL-0131,Company 131,Education,Rahul,Website,Closed Won,4249591,1.0,2025-01-13,2025-04-02,2025-04-02,Won
+DEAL-0132,Company 132,Education,Arjun,Website,Closed Won,4852116,1.0,2026-07-04,2026-10-04,2026-10-04,Won
+DEAL-0133,Company 133,Manufacturing,Sneha,Cold Call,Prospecting,1434418,0.1,2026-08-11,2026-10-04,,Open
+DEAL-0134,Company 134,Education,Vikram,Cold Call,Closed Won,2006109,1.0,2025-08-17,2025-10-05,2025-10-05,Won
+DEAL-0135,Company 135,Technology,Vikram,Referral,Proposal,4113309,0.5,2026-01-14,2026-06-09,,Open
+DEAL-0136,Company 136,Manufacturing,Arjun,Cold Call,Proposal,879735,0.5,2025-03-30,2025-07-26,,Open
+DEAL-0137,Company 137,Technology,Rahul,Website,Negotiation,3136176,0.75,2026-02-26,2026-08-02,,Open
+DEAL-0138,Company 138,Healthcare,Arjun,Partner,Qualification,3731262,0.25,2025-08-13,2025-10-19,,Open
+DEAL-0139,Company 139,Retail,Vikram,Website,Negotiation,3292374,0.75,2026-08-02,2026-09-27,,Open
+DEAL-0140,Company 140,Technology,Rahul,Cold Call,Closed Won,3852010,1.0,2026-04-23,2026-06-14,2026-06-14,Won
+DEAL-0141,Company 141,Finance,Priya,Cold Call,Prospecting,2411632,0.1,2026-02-15,2026-05-26,,Open
+DEAL-0142,Company 142,Retail,Vikram,Email Campaign,Proposal,4107893,0.5,2025-04-28,2025-06-28,,Open
+DEAL-0143,Company 143,Retail,Sneha,Cold Call,Proposal,1855468,0.5,2025-01-15,2025-07-05,,Open
+DEAL-0144,Company 144,Retail,Priya,LinkedIn,Negotiation,2130154,0.75,2025-05-10,2025-11-04,,Open
+DEAL-0145,Company 145,Manufacturing,Ananya,Referral,Prospecting,2742755,0.1,2025-10-10,2026-01-06,,Open
+DEAL-0146,Company 146,Manufacturing,Priya,Website,Closed Lost,4377819,0.0,2025-10-29,2026-02-24,2026-02-24,Lost
+DEAL-0147,Company 147,Education,Vikram,Referral,Proposal,2842427,0.5,2026-04-05,2026-06-26,,Open
+DEAL-0148,Company 148,Manufacturing,Rahul,Partner,Proposal,2464472,0.5,2026-01-13,2026-02-25,,Open
+DEAL-0149,Company 149,Manufacturing,Rahul,Website,Prospecting,2052324,0.1,2026-02-11,2026-08-08,,Open
+DEAL-0150,Company 150,Technology,Vikram,Website,Proposal,3628226,0.5,2026-07-21,2026-12-31,,Open
+DEAL-0151,Company 151,Technology,Arjun,Email Campaign,Closed Won,561411,1.0,2025-07-21,2026-01-05,2026-01-05,Won
+DEAL-0152,Company 152,Finance,Arjun,Referral,Closed Lost,1067433,0.0,2026-06-21,2026-11-12,2026-11-12,Lost
+DEAL-0153,Company 153,Healthcare,Arjun,Partner,Proposal,4542816,0.5,2025-12-13,2026-04-14,,Open
+DEAL-0154,Company 154,Technology,Rahul,Cold Call,Prospecting,1428246,0.1,2025-01-25,2025-05-07,,Open
+DEAL-0155,Company 155,Finance,Vikram,Website,Negotiation,1095482,0.75,2025-03-04,2025-08-21,,Open
+DEAL-0156,Company 156,Manufacturing,Sneha,Cold Call,Prospecting,69816,0.1,2025-03-25,2025-08-04,,Open
+DEAL-0157,Company 157,Manufacturing,Arjun,LinkedIn,Qualification,1088896,0.25,2025-12-26,2026-05-30,,Open
+DEAL-0158,Company 158,Education,Vikram,Partner,Proposal,314223,0.5,2025-11-14,2026-01-16,,Open
+DEAL-0159,Company 159,Manufacturing,Arjun,Referral,Proposal,1716471,0.5,2025-05-24,2025-06-08,,Open
+DEAL-0160,Company 160,Retail,Rahul,Cold Call,Proposal,2709440,0.5,2025-07-13,2025-09-28,,Open
+DEAL-0161,Company 161,Finance,Arjun,Partner,Closed Won,3498678,1.0,2025-02-24,2025-03-20,2025-03-20,Won
+DEAL-0162,Company 162,Retail,Priya,Cold Call,Closed Won,2330827,1.0,2025-06-11,2025-08-19,2025-08-19,Won
+DEAL-0163,Company 163,Manufacturing,Rahul,Cold Call,Qualification,4093064,0.25,2025-01-08,2025-04-04,,Open
+DEAL-0164,Company 164,Finance,Arjun,Partner,Negotiation,3235714,0.75,2026-08-02,2026-08-24,,Open
+DEAL-0165,Company 165,Retail,Sneha,Cold Call,Closed Won,1028039,1.0,2025-10-15,2026-03-22,2026-03-22,Won
+DEAL-0166,Company 166,Finance,Rahul,Cold Call,Qualification,661213,0.25,2025-07-01,2025-07-22,,Open
+DEAL-0167,Company 167,Finance,Rahul,Cold Call,Negotiation,4389235,0.75,2025-05-27,2025-08-31,,Open
+DEAL-0168,Company 168,Retail,Sneha,Cold Call,Qualification,3866446,0.25,2026-06-07,2026-10-18,,Open
+DEAL-0169,Company 169,Retail,Priya,Partner,Closed Won,2539569,1.0,2025-09-13,2026-01-04,2026-01-04,Won
+DEAL-0170,Company 170,Healthcare,Ananya,Website,Closed Won,4158880,1.0,2025-12-30,2026-05-13,2026-05-13,Won
+DEAL-0171,Company 171,Finance,Vikram,Website,Qualification,3223584,0.25,2025-04-25,2025-06-18,,Open
+DEAL-0172,Company 172,Finance,Priya,Cold Call,Negotiation,2988613,0.75,2025-12-25,2026-01-12,,Open
+DEAL-0173,Company 173,Finance,Vikram,Referral,Negotiation,3584550,0.75,2025-04-19,2025-07-12,,Open
+DEAL-0174,Company 174,Education,Rahul,Partner,Qualification,238456,0.25,2025-12-22,2026-01-22,,Open
+DEAL-0175,Company 175,Technology,Ananya,LinkedIn,Prospecting,4817348,0.1,2026-01-13,2026-02-23,,Open
+DEAL-0176,Company 176,Finance,Vikram,Website,Negotiation,3188145,0.75,2025-06-17,2025-08-23,,Open
+DEAL-0177,Company 177,Healthcare,Rahul,LinkedIn,Prospecting,741757,0.1,2026-04-21,2026-06-28,,Open
+DEAL-0178,Company 178,Retail,Rahul,LinkedIn,Closed Won,2728932,1.0,2025-10-19,2025-11-13,2025-11-13,Won
+DEAL-0179,Company 179,Manufacturing,Ananya,Cold Call,Proposal,428165,0.5,2025-08-15,2025-12-18,,Open
+DEAL-0180,Company 180,Healthcare,Arjun,Email Campaign,Qualification,465008,0.25,2025-11-08,2026-04-19,,Open
+DEAL-0181,Company 181,Healthcare,Priya,Website,Proposal,3076768,0.5,2026-05-06,2026-09-06,,Open
+DEAL-0182,Company 182,Technology,Rahul,Website,Qualification,4901188,0.25,2025-06-03,2025-07-27,,Open
+DEAL-0183,Company 183,Healthcare,Arjun,Referral,Proposal,3925754,0.5,2025-03-02,2025-04-10,,Open
+DEAL-0184,Company 184,Finance,Sneha,LinkedIn,Negotiation,1708987,0.75,2025-08-17,2025-12-11,,Open
+DEAL-0185,Company 185,Finance,Rahul,Website,Closed Lost,3441418,0.0,2025-02-13,2025-03-16,2025-03-16,Lost
+DEAL-0186,Company 186,Education,Rahul,Cold Call,Closed Lost,3852429,0.0,2025-01-12,2025-04-19,2025-04-19,Lost
+DEAL-0187,Company 187,Finance,Rahul,Email Campaign,Closed Won,2252575,1.0,2026-01-09,2026-02-17,2026-02-17,Won
+DEAL-0188,Company 188,Finance,Rahul,Referral,Closed Lost,3548472,0.0,2026-07-25,2026-09-24,2026-09-24,Lost
+DEAL-0189,Company 189,Technology,Arjun,Referral,Prospecting,1574102,0.1,2025-03-27,2025-08-05,,Open
+DEAL-0190,Company 190,Healthcare,Priya,Website,Closed Won,4018222,1.0,2026-04-22,2026-09-29,2026-09-29,Won
+DEAL-0191,Company 191,Retail,Vikram,Referral,Qualification,2484206,0.25,2026-06-10,2026-10-10,,Open
+DEAL-0192,Company 192,Technology,Sneha,Cold Call,Proposal,4243060,0.5,2025-05-11,2025-09-10,,Open
+DEAL-0193,Company 193,Manufacturing,Priya,LinkedIn,Proposal,3878433,0.5,2026-02-01,2026-06-03,,Open
+DEAL-0194,Company 194,Education,Priya,LinkedIn,Prospecting,509297,0.1,2025-06-19,2025-07-16,,Open
+DEAL-0195,Company 195,Education,Sneha,Website,Prospecting,4784963,0.1,2025-02-08,2025-04-25,,Open
+DEAL-0196,Company 196,Finance,Ananya,Website,Qualification,2756871,0.25,2025-09-29,2026-02-11,,Open
+DEAL-0197,Company 197,Education,Ananya,Partner,Negotiation,4494499,0.75,2025-12-25,2026-01-11,,Open
+DEAL-0198,Company 198,Technology,Vikram,Partner,Qualification,3097569,0.25,2025-11-20,2026-05-06,,Open
+DEAL-0199,Company 199,Retail,Sneha,LinkedIn,Qualification,447710,0.25,2026-08-08,2026-11-18,,Open
+DEAL-0200,Company 200,Manufacturing,Arjun,Partner,Proposal,2900171,0.5,2025-03-02,2025-05-18,,Open
+DEAL-0201,Company 201,Healthcare,Sneha,Cold Call,Negotiation,4423656,0.75,2025-08-14,2025-09-01,,Open
+DEAL-0202,Company 202,Finance,Arjun,Referral,Negotiation,481413,0.75,2026-07-29,2026-11-30,,Open
+DEAL-0203,Company 203,Manufacturing,Vikram,Cold Call,Closed Lost,3878464,0.0,2025-08-06,2025-12-18,2025-12-18,Lost
+DEAL-0204,Company 204,Healthcare,Sneha,Referral,Qualification,1564542,0.25,2025-02-23,2025-03-18,,Open
+DEAL-0205,Company 205,Manufacturing,Rahul,LinkedIn,Qualification,2058954,0.25,2026-07-27,2026-10-31,,Open
+DEAL-0206,Company 206,Education,Rahul,Website,Qualification,2155058,0.25,2025-06-09,2025-10-21,,Open
+DEAL-0207,Company 207,Technology,Arjun,LinkedIn,Closed Won,84701,1.0,2026-08-03,2026-08-28,2026-08-28,Won
+DEAL-0208,Company 208,Finance,Rahul,Website,Prospecting,377304,0.1,2026-06-25,2026-09-23,,Open
+DEAL-0209,Company 209,Manufacturing,Arjun,Cold Call,Prospecting,3647706,0.1,2025-09-18,2026-02-03,,Open
+DEAL-0210,Company 210,Education,Vikram,Website,Closed Lost,4207893,0.0,2025-06-25,2025-08-06,2025-08-06,Lost
+DEAL-0211,Company 211,Education,Arjun,Referral,Closed Won,4370295,1.0,2025-04-24,2025-07-09,2025-07-09,Won
+DEAL-0212,Company 212,Healthcare,Vikram,Cold Call,Negotiation,706951,0.75,2025-11-19,2026-01-12,,Open
+DEAL-0213,Company 213,Technology,Arjun,LinkedIn,Closed Won,2416610,1.0,2025-10-16,2026-01-30,2026-01-30,Won
+DEAL-0214,Company 214,Healthcare,Ananya,Email Campaign,Negotiation,1805692,0.75,2025-12-29,2026-04-22,,Open
+DEAL-0215,Company 215,Technology,Arjun,Referral,Closed Won,3390420,1.0,2025-01-07,2025-03-20,2025-03-20,Won
+DEAL-0216,Company 216,Finance,Sneha,Referral,Qualification,4922554,0.25,2026-01-29,2026-03-23,,Open
+DEAL-0217,Company 217,Manufacturing,Arjun,Website,Prospecting,3811675,0.1,2026-08-12,2026-09-08,,Open
+DEAL-0218,Company 218,Retail,Vikram,LinkedIn,Prospecting,4148064,0.1,2025-08-21,2025-12-11,,Open
+DEAL-0219,Company 219,Technology,Priya,Email Campaign,Closed Won,650530,1.0,2025-11-22,2026-02-18,2026-02-18,Won
+DEAL-0220,Company 220,Retail,Sneha,Email Campaign,Closed Won,1714221,1.0,2026-07-26,2026-08-31,2026-08-31,Won
+DEAL-0221,Company 221,Retail,Ananya,Website,Qualification,188563,0.25,2025-08-30,2025-09-30,,Open
+DEAL-0222,Company 222,Manufacturing,Vikram,Email Campaign,Prospecting,2092999,0.1,2025-01-22,2025-03-27,,Open
+DEAL-0223,Company 223,Education,Arjun,Website,Closed Won,2823939,1.0,2025-08-15,2025-09-05,2025-09-05,Won
+DEAL-0224,Company 224,Finance,Priya,Partner,Closed Won,1880815,1.0,2025-03-20,2025-05-31,2025-05-31,Won
+DEAL-0225,Company 225,Technology,Vikram,Cold Call,Proposal,4105555,0.5,2025-10-12,2026-03-16,,Open
+DEAL-0226,Company 226,Manufacturing,Arjun,LinkedIn,Closed Won,335555,1.0,2025-03-16,2025-06-22,2025-06-22,Won
+DEAL-0227,Company 227,Education,Arjun,Email Campaign,Prospecting,2915899,0.1,2026-01-17,2026-02-21,,Open
+DEAL-0228,Company 228,Finance,Vikram,LinkedIn,Qualification,4907088,0.25,2026-03-29,2026-04-27,,Open
+DEAL-0229,Company 229,Retail,Ananya,Website,Closed Won,1124961,1.0,2026-06-08,2026-07-19,2026-07-19,Won
+DEAL-0230,Company 230,Education,Sneha,Cold Call,Closed Won,2492266,1.0,2025-11-05,2026-03-30,2026-03-30,Won
+DEAL-0231,Company 231,Manufacturing,Rahul,Partner,Closed Lost,4027019,0.0,2026-06-20,2026-11-29,2026-11-29,Lost
+DEAL-0232,Company 232,Retail,Rahul,Partner,Prospecting,2931990,0.1,2025-07-25,2025-10-31,,Open
+DEAL-0233,Company 233,Education,Rahul,Cold Call,Closed Won,1854673,1.0,2026-05-16,2026-10-16,2026-10-16,Won
+DEAL-0234,Company 234,Manufacturing,Arjun,Cold Call,Qualification,3353389,0.25,2025-10-01,2026-02-02,,Open
+DEAL-0235,Company 235,Technology,Rahul,Email Campaign,Negotiation,2439383,0.75,2025-04-12,2025-07-23,,Open
+DEAL-0236,Company 236,Retail,Sneha,Website,Proposal,3440926,0.5,2025-02-15,2025-05-26,,Open
+DEAL-0237,Company 237,Technology,Vikram,Partner,Prospecting,1293131,0.1,2025-08-30,2025-10-16,,Open
+DEAL-0238,Company 238,Finance,Ananya,Referral,Qualification,1997763,0.25,2026-08-12,2026-12-07,,Open
+DEAL-0239,Company 239,Retail,Rahul,LinkedIn,Qualification,4895710,0.25,2025-05-02,2025-09-12,,Open
+DEAL-0240,Company 240,Technology,Priya,Email Campaign,Proposal,1493717,0.5,2025-11-13,2026-02-08,,Open
+DEAL-0241,Company 241,Retail,Ananya,LinkedIn,Negotiation,414359,0.75,2025-09-21,2025-12-06,,Open
+DEAL-0242,Company 242,Manufacturing,Priya,Partner,Negotiation,207702,0.75,2026-01-18,2026-06-13,,Open
+DEAL-0243,Company 243,Retail,Priya,Partner,Negotiation,1918670,0.75,2026-02-14,2026-04-10,,Open
+DEAL-0244,Company 244,Education,Arjun,Referral,Negotiation,4385702,0.75,2025-01-12,2025-02-20,,Open
+DEAL-0245,Company 245,Education,Arjun,Email Campaign,Negotiation,4165811,0.75,2025-05-27,2025-10-07,,Open
+DEAL-0246,Company 246,Technology,Arjun,LinkedIn,Negotiation,1990369,0.75,2026-08-17,2026-10-07,,Open
+DEAL-0247,Company 247,Retail,Rahul,Partner,Prospecting,1901317,0.1,2025-02-04,2025-05-26,,Open
+DEAL-0248,Company 248,Retail,Sneha,Email Campaign,Closed Won,2279180,1.0,2025-06-08,2025-07-29,2025-07-29,Won
+DEAL-0249,Company 249,Technology,Sneha,Referral,Prospecting,4081419,0.1,2026-01-17,2026-05-07,,Open
+DEAL-0250,Company 250,Finance,Sneha,Partner,Proposal,4275889,0.5,2025-04-27,2025-07-16,,Open
+DEAL-0251,Company 251,Retail,Arjun,Cold Call,Qualification,2427074,0.25,2025-10-22,2026-03-10,,Open
+DEAL-0252,Company 252,Finance,Sneha,Partner,Closed Won,3060087,1.0,2026-06-14,2026-10-05,2026-10-05,Won
+DEAL-0253,Company 253,Education,Ananya,Cold Call,Proposal,3021981,0.5,2026-08-22,2026-10-12,,Open
+DEAL-0254,Company 254,Manufacturing,Rahul,Email Campaign,Prospecting,4934797,0.1,2026-07-07,2026-11-23,,Open
+DEAL-0255,Company 255,Finance,Arjun,Cold Call,Qualification,2010826,0.25,2025-05-10,2025-06-21,,Open
+DEAL-0256,Company 256,Education,Arjun,Referral,Proposal,4221774,0.5,2025-09-18,2026-03-15,,Open
+DEAL-0257,Company 257,Retail,Ananya,Website,Proposal,3534239,0.5,2025-09-27,2025-10-21,,Open
+DEAL-0258,Company 258,Technology,Ananya,Email Campaign,Qualification,973780,0.25,2025-09-14,2025-09-29,,Open
+DEAL-0259,Company 259,Technology,Rahul,Email Campaign,Negotiation,348090,0.75,2025-10-11,2026-04-08,,Open
+DEAL-0260,Company 260,Healthcare,Vikram,Email Campaign,Closed Won,4065470,1.0,2025-06-05,2025-10-05,2025-10-05,Won
+DEAL-0261,Company 261,Retail,Priya,Cold Call,Prospecting,1966545,0.1,2025-11-30,2026-01-20,,Open
+DEAL-0262,Company 262,Education,Rahul,Website,Qualification,4414406,0.25,2025-01-01,2025-03-15,,Open
+DEAL-0263,Company 263,Manufacturing,Priya,Website,Prospecting,3090267,0.1,2025-07-25,2025-09-20,,Open
+DEAL-0264,Company 264,Retail,Ananya,Email Campaign,Closed Won,1946220,1.0,2025-11-02,2026-04-16,2026-04-16,Won
+DEAL-0265,Company 265,Finance,Priya,Email Campaign,Prospecting,2956495,0.1,2025-05-31,2025-08-05,,Open
+DEAL-0266,Company 266,Education,Ananya,Cold Call,Closed Lost,1220439,0.0,2026-01-10,2026-06-02,2026-06-02,Lost
+DEAL-0267,Company 267,Finance,Priya,Website,Closed Lost,1014918,0.0,2026-05-10,2026-10-29,2026-10-29,Lost
+DEAL-0268,Company 268,Technology,Ananya,Email Campaign,Closed Won,1326647,1.0,2026-06-22,2026-09-16,2026-09-16,Won
+DEAL-0269,Company 269,Education,Vikram,Website,Closed Lost,3620834,0.0,2025-01-01,2025-06-06,2025-06-06,Lost
+DEAL-0270,Company 270,Technology,Rahul,Website,Closed Lost,4707089,0.0,2025-08-08,2025-10-24,2025-10-24,Lost
+DEAL-0271,Company 271,Technology,Arjun,Email Campaign,Closed Won,2088540,1.0,2025-03-30,2025-06-29,2025-06-29,Won
+DEAL-0272,Company 272,Manufacturing,Priya,Referral,Closed Lost,3749181,0.0,2026-01-16,2026-02-18,2026-02-18,Lost
+DEAL-0273,Company 273,Healthcare,Rahul,Partner,Qualification,4081464,0.25,2026-02-01,2026-06-04,,Open
+DEAL-0274,Company 274,Finance,Vikram,LinkedIn,Qualification,1150500,0.25,2026-03-31,2026-06-29,,Open
+DEAL-0275,Company 275,Retail,Ananya,Referral,Qualification,3410160,0.25,2026-04-18,2026-06-06,,Open
+DEAL-0276,Company 276,Finance,Ananya,Website,Negotiation,2092823,0.75,2025-09-24,2025-12-21,,Open
+DEAL-0277,Company 277,Education,Vikram,Referral,Closed Lost,275049,0.0,2025-01-03,2025-06-22,2025-06-22,Lost
+DEAL-0278,Company 278,Retail,Sneha,LinkedIn,Qualification,2430932,0.25,2025-01-12,2025-03-04,,Open
+DEAL-0279,Company 279,Healthcare,Arjun,Cold Call,Negotiation,2136213,0.75,2025-12-09,2026-04-10,,Open
+DEAL-0280,Company 280,Education,Sneha,Website,Proposal,2049254,0.5,2025-01-21,2025-04-25,,Open
+DEAL-0281,Company 281,Finance,Ananya,Cold Call,Proposal,3667556,0.5,2025-02-20,2025-03-25,,Open
+DEAL-0282,Company 282,Healthcare,Priya,Email Campaign,Qualification,798013,0.25,2026-01-08,2026-06-27,,Open
+DEAL-0283,Company 283,Technology,Ananya,LinkedIn,Closed Lost,4944640,0.0,2025-01-02,2025-04-16,2025-04-16,Lost
+DEAL-0284,Company 284,Technology,Priya,Cold Call,Prospecting,225211,0.1,2025-09-20,2026-02-22,,Open
+DEAL-0285,Company 285,Manufacturing,Rahul,Email Campaign,Proposal,205683,0.5,2025-10-25,2026-03-06,,Open
+DEAL-0286,Company 286,Education,Ananya,Partner,Negotiation,4811260,0.75,2026-01-11,2026-05-28,,Open
+DEAL-0287,Company 287,Finance,Rahul,Cold Call,Qualification,3379049,0.25,2025-10-04,2025-10-28,,Open
+DEAL-0288,Company 288,Healthcare,Vikram,Email Campaign,Qualification,1825767,0.25,2026-08-07,2027-01-22,,Open
+DEAL-0289,Company 289,Finance,Arjun,Email Campaign,Closed Won,1547618,1.0,2025-02-19,2025-06-02,2025-06-02,Won
+DEAL-0290,Company 290,Healthcare,Sneha,Referral,Prospecting,2931777,0.1,2026-03-15,2026-05-17,,Open
+DEAL-0291,Company 291,Technology,Ananya,Cold Call,Proposal,4808982,0.5,2026-03-08,2026-08-07,,Open
+DEAL-0292,Company 292,Healthcare,Vikram,Referral,Prospecting,2941005,0.1,2026-05-24,2026-08-10,,Open
+DEAL-0293,Company 293,Retail,Ananya,LinkedIn,Proposal,2048197,0.5,2026-07-08,2026-08-15,,Open
+DEAL-0294,Company 294,Manufacturing,Sneha,Cold Call,Closed Lost,1174905,0.0,2026-08-03,2026-12-04,2026-12-04,Lost
+DEAL-0295,Company 295,Technology,Arjun,Partner,Prospecting,254451,0.1,2025-12-19,2026-05-18,,Open
+DEAL-0296,Company 296,Finance,Sneha,Cold Call,Proposal,4621843,0.5,2026-03-01,2026-05-14,,Open
+DEAL-0297,Company 297,Healthcare,Ananya,Email Campaign,Qualification,4127716,0.25,2026-03-04,2026-05-07,,Open
+DEAL-0298,Company 298,Retail,Priya,Partner,Prospecting,4218962,0.1,2026-01-16,2026-06-09,,Open
+DEAL-0299,Company 299,Manufacturing,Sneha,Referral,Proposal,830641,0.5,2025-07-28,2025-12-05,,Open
+DEAL-0300,Company 300,Technology,Priya,Partner,Prospecting,3177748,0.1,2026-07-02,2026-08-16,,Open
+DEAL-0301,Company 301,Retail,Sneha,LinkedIn,Prospecting,1355487,0.1,2025-02-24,2025-08-01,,Open
+DEAL-0302,Company 302,Manufacturing,Vikram,Email Campaign,Prospecting,1197116,0.1,2026-06-26,2026-11-02,,Open
+DEAL-0303,Company 303,Education,Sneha,Partner,Qualification,3892411,0.25,2025-09-05,2025-10-19,,Open
+DEAL-0304,Company 304,Education,Sneha,Partner,Closed Won,3454231,1.0,2026-02-10,2026-08-04,2026-08-04,Won
+DEAL-0305,Company 305,Finance,Vikram,Referral,Prospecting,2665804,0.1,2026-05-15,2026-10-27,,Open
+DEAL-0306,Company 306,Healthcare,Sneha,Partner,Closed Lost,2707025,0.0,2025-12-27,2026-03-26,2026-03-26,Lost
+DEAL-0307,Company 307,Manufacturing,Arjun,Partner,Negotiation,4262377,0.75,2026-02-11,2026-04-21,,Open
+DEAL-0308,Company 308,Technology,Priya,Partner,Closed Won,776331,1.0,2025-05-23,2025-06-18,2025-06-18,Won
+DEAL-0309,Company 309,Manufacturing,Ananya,LinkedIn,Qualification,4331772,0.25,2026-08-17,2027-02-05,,Open
+DEAL-0310,Company 310,Healthcare,Priya,LinkedIn,Prospecting,1663325,0.1,2025-01-07,2025-06-19,,Open
+DEAL-0311,Company 311,Finance,Priya,Website,Qualification,4165362,0.25,2025-05-10,2025-06-13,,Open
+DEAL-0312,Company 312,Manufacturing,Rahul,Partner,Qualification,2997893,0.25,2025-09-10,2025-12-28,,Open
+DEAL-0313,Company 313,Healthcare,Rahul,Partner,Closed Won,4937349,1.0,2025-12-02,2026-04-26,2026-04-26,Won
+DEAL-0314,Company 314,Education,Priya,Email Campaign,Qualification,1300956,0.25,2025-01-25,2025-06-24,,Open
+DEAL-0315,Company 315,Retail,Vikram,Partner,Closed Lost,606110,0.0,2026-06-21,2026-07-17,2026-07-17,Lost
+DEAL-0316,Company 316,Education,Arjun,Partner,Qualification,301537,0.25,2026-06-16,2026-11-11,,Open
+DEAL-0317,Company 317,Finance,Rahul,Referral,Proposal,3497794,0.5,2025-05-10,2025-11-02,,Open
+DEAL-0318,Company 318,Technology,Arjun,Website,Closed Won,3166810,1.0,2026-01-17,2026-07-09,2026-07-09,Won
+DEAL-0319,Company 319,Retail,Rahul,Email Campaign,Prospecting,1815524,0.1,2025-04-09,2025-08-16,,Open
+DEAL-0320,Company 320,Education,Sneha,Email Campaign,Negotiation,1010612,0.75,2026-07-06,2026-09-10,,Open
+DEAL-0321,Company 321,Education,Sneha,Partner,Proposal,1594613,0.5,2025-05-04,2025-07-20,,Open
+DEAL-0322,Company 322,Education,Vikram,Partner,Proposal,2506070,0.5,2026-04-28,2026-05-26,,Open
+DEAL-0323,Company 323,Manufacturing,Ananya,Cold Call,Proposal,2340870,0.5,2026-05-25,2026-11-04,,Open
+DEAL-0324,Company 324,Technology,Vikram,Cold Call,Prospecting,1729161,0.1,2026-04-16,2026-09-10,,Open
+DEAL-0325,Company 325,Education,Vikram,Email Campaign,Closed Lost,1735996,0.0,2025-08-30,2025-12-04,2025-12-04,Lost
+DEAL-0326,Company 326,Education,Sneha,Cold Call,Qualification,1601330,0.25,2026-04-10,2026-09-10,,Open
+DEAL-0327,Company 327,Healthcare,Rahul,Cold Call,Qualification,2013571,0.25,2026-05-25,2026-08-29,,Open
+DEAL-0328,Company 328,Finance,Vikram,Website,Proposal,867052,0.5,2026-03-12,2026-04-16,,Open
+DEAL-0329,Company 329,Technology,Rahul,Referral,Closed Won,2571279,1.0,2025-04-15,2025-09-13,2025-09-13,Won
+DEAL-0330,Company 330,Finance,Priya,Email Campaign,Qualification,1102207,0.25,2026-07-26,2026-08-19,,Open
+DEAL-0331,Company 331,Healthcare,Ananya,Website,Closed Won,2369124,1.0,2025-08-20,2025-10-07,2025-10-07,Won
+DEAL-0332,Company 332,Education,Arjun,Cold Call,Prospecting,3138272,0.1,2025-03-20,2025-06-30,,Open
+DEAL-0333,Company 333,Education,Rahul,LinkedIn,Proposal,2211088,0.5,2026-02-20,2026-03-14,,Open
+DEAL-0334,Company 334,Education,Sneha,Cold Call,Prospecting,4105447,0.1,2026-01-20,2026-02-20,,Open
+DEAL-0335,Company 335,Retail,Arjun,LinkedIn,Qualification,4385518,0.25,2025-08-20,2026-01-20,,Open
+DEAL-0336,Company 336,Manufacturing,Ananya,Referral,Proposal,1257786,0.5,2026-06-24,2026-07-13,,Open
+DEAL-0337,Company 337,Technology,Rahul,Referral,Prospecting,2568638,0.1,2026-07-04,2026-10-07,,Open
+DEAL-0338,Company 338,Manufacturing,Sneha,Partner,Prospecting,2666241,0.1,2026-04-08,2026-05-28,,Open
+DEAL-0339,Company 339,Finance,Vikram,Email Campaign,Proposal,3666984,0.5,2025-06-18,2025-10-24,,Open
+DEAL-0340,Company 340,Retail,Priya,LinkedIn,Negotiation,2950737,0.75,2026-05-03,2026-10-24,,Open
+DEAL-0341,Company 341,Technology,Rahul,LinkedIn,Prospecting,1668702,0.1,2026-06-06,2026-11-13,,Open
+DEAL-0342,Company 342,Healthcare,Ananya,Website,Qualification,1569603,0.25,2025-05-04,2025-06-19,,Open
+DEAL-0343,Company 343,Technology,Priya,Cold Call,Closed Won,2267181,1.0,2025-05-02,2025-05-28,2025-05-28,Won
+DEAL-0344,Company 344,Manufacturing,Ananya,Email Campaign,Proposal,1597261,0.5,2026-02-01,2026-07-01,,Open
+DEAL-0345,Company 345,Manufacturing,Sneha,Cold Call,Closed Won,501157,1.0,2025-07-22,2025-11-02,2025-11-02,Won
+DEAL-0346,Company 346,Finance,Arjun,Email Campaign,Prospecting,2291281,0.1,2026-04-11,2026-05-22,,Open
+DEAL-0347,Company 347,Manufacturing,Arjun,Cold Call,Proposal,1649908,0.5,2026-04-06,2026-04-23,,Open
+DEAL-0348,Company 348,Education,Priya,Referral,Proposal,1235574,0.5,2025-01-30,2025-03-10,,Open
+DEAL-0349,Company 349,Technology,Sneha,LinkedIn,Negotiation,2563024,0.75,2026-08-07,2026-08-24,,Open
+DEAL-0350,Company 350,Education,Ananya,LinkedIn,Closed Won,3959439,1.0,2025-08-12,2025-09-05,2025-09-05,Won
+DEAL-0351,Company 351,Manufacturing,Priya,Referral,Closed Won,1166271,1.0,2025-03-07,2025-09-01,2025-09-01,Won
+DEAL-0352,Company 352,Technology,Priya,Cold Call,Closed Won,716165,1.0,2025-11-10,2025-12-08,2025-12-08,Won
+DEAL-0353,Company 353,Healthcare,Vikram,Referral,Qualification,2817891,0.25,2026-01-12,2026-04-06,,Open
+DEAL-0354,Company 354,Finance,Ananya,LinkedIn,Proposal,2671038,0.5,2025-05-12,2025-06-15,,Open
+DEAL-0355,Company 355,Education,Priya,Partner,Negotiation,3918452,0.75,2025-06-03,2025-08-10,,Open
+DEAL-0356,Company 356,Retail,Vikram,Partner,Prospecting,4151036,0.1,2025-07-07,2025-11-17,,Open
+DEAL-0357,Company 357,Retail,Sneha,Partner,Prospecting,1770023,0.1,2026-05-30,2026-08-07,,Open
+DEAL-0358,Company 358,Retail,Sneha,LinkedIn,Proposal,2999281,0.5,2026-06-20,2026-11-28,,Open
+DEAL-0359,Company 359,Education,Sneha,Partner,Prospecting,3857085,0.1,2025-11-15,2026-04-30,,Open
+DEAL-0360,Company 360,Healthcare,Vikram,Email Campaign,Qualification,2840373,0.25,2025-11-10,2026-03-04,,Open
+DEAL-0361,Company 361,Retail,Rahul,LinkedIn,Negotiation,340998,0.75,2025-12-16,2026-05-25,,Open
+DEAL-0362,Company 362,Education,Rahul,Website,Closed Lost,4188286,0.0,2026-04-21,2026-08-31,2026-08-31,Lost
+DEAL-0363,Company 363,Manufacturing,Ananya,Email Campaign,Closed Won,361955,1.0,2025-07-17,2025-12-21,2025-12-21,Won
+DEAL-0364,Company 364,Finance,Priya,LinkedIn,Proposal,4748713,0.5,2025-03-16,2025-05-30,,Open
+DEAL-0365,Company 365,Healthcare,Vikram,LinkedIn,Qualification,2376133,0.25,2025-09-11,2025-12-15,,Open
+DEAL-0366,Company 366,Education,Sneha,Website,Closed Won,4052713,1.0,2026-03-02,2026-06-17,2026-06-17,Won
+DEAL-0367,Company 367,Retail,Ananya,Referral,Negotiation,2399316,0.75,2025-03-15,2025-06-27,,Open
+DEAL-0368,Company 368,Retail,Sneha,Website,Prospecting,2797176,0.1,2025-11-09,2026-01-22,,Open
+DEAL-0369,Company 369,Education,Ananya,Email Campaign,Negotiation,3262883,0.75,2026-06-27,2026-08-16,,Open
+DEAL-0370,Company 370,Retail,Ananya,Referral,Qualification,4909221,0.25,2026-02-18,2026-08-14,,Open
+DEAL-0371,Company 371,Retail,Rahul,Cold Call,Proposal,4999982,0.5,2026-02-04,2026-04-29,,Open
+DEAL-0372,Company 372,Finance,Arjun,Website,Prospecting,1812999,0.1,2025-08-16,2025-11-20,,Open
+DEAL-0373,Company 373,Manufacturing,Priya,LinkedIn,Proposal,3212801,0.5,2026-06-17,2026-07-08,,Open
+DEAL-0374,Company 374,Finance,Priya,Email Campaign,Proposal,4495655,0.5,2025-05-28,2025-11-07,,Open
+DEAL-0375,Company 375,Finance,Vikram,LinkedIn,Proposal,1562760,0.5,2025-05-22,2025-06-26,,Open
+DEAL-0376,Company 376,Healthcare,Arjun,Website,Prospecting,3623465,0.1,2026-08-22,2026-10-24,,Open
+DEAL-0377,Company 377,Finance,Vikram,Email Campaign,Qualification,2452187,0.25,2026-01-19,2026-07-13,,Open
+DEAL-0378,Company 378,Technology,Vikram,Cold Call,Closed Won,4128584,1.0,2026-05-05,2026-06-21,2026-06-21,Won
+DEAL-0379,Company 379,Technology,Rahul,Referral,Proposal,728841,0.5,2025-12-20,2026-03-30,,Open
+DEAL-0380,Company 380,Finance,Ananya,Website,Proposal,1429904,0.5,2026-05-09,2026-05-28,,Open
+DEAL-0381,Company 381,Manufacturing,Sneha,Partner,Proposal,2879455,0.5,2025-03-07,2025-07-24,,Open
+DEAL-0382,Company 382,Technology,Vikram,Email Campaign,Closed Lost,1147353,0.0,2026-07-25,2026-10-10,2026-10-10,Lost
+DEAL-0383,Company 383,Manufacturing,Vikram,Partner,Closed Won,638158,1.0,2025-06-03,2025-10-11,2025-10-11,Won
+DEAL-0384,Company 384,Finance,Rahul,Referral,Proposal,339768,0.5,2026-01-16,2026-02-27,,Open
+DEAL-0385,Company 385,Retail,Arjun,Partner,Qualification,4418327,0.25,2025-09-11,2025-11-06,,Open
+DEAL-0386,Company 386,Education,Arjun,LinkedIn,Closed Won,2304614,1.0,2026-03-12,2026-08-20,2026-08-20,Won
+DEAL-0387,Company 387,Retail,Vikram,Cold Call,Qualification,1278807,0.25,2026-05-19,2026-07-13,,Open
+DEAL-0388,Company 388,Manufacturing,Priya,Referral,Negotiation,4513158,0.75,2025-03-13,2025-08-17,,Open
+DEAL-0389,Company 389,Healthcare,Vikram,LinkedIn,Prospecting,1306715,0.1,2026-04-13,2026-07-16,,Open
+DEAL-0390,Company 390,Retail,Rahul,Cold Call,Closed Lost,3852986,0.0,2025-10-10,2026-04-03,2026-04-03,Lost
+DEAL-0391,Company 391,Technology,Sneha,LinkedIn,Closed Lost,323349,0.0,2025-09-17,2025-10-20,2025-10-20,Lost
+DEAL-0392,Company 392,Education,Vikram,Partner,Proposal,628688,0.5,2025-01-16,2025-05-29,,Open
+DEAL-0393,Company 393,Finance,Arjun,LinkedIn,Prospecting,3252209,0.1,2025-09-26,2026-01-20,,Open
+DEAL-0394,Company 394,Finance,Priya,Partner,Prospecting,289968,0.1,2026-06-21,2026-11-30,,Open
+DEAL-0395,Company 395,Manufacturing,Priya,Partner,Closed Won,3928363,1.0,2025-08-15,2025-12-23,2025-12-23,Won
+DEAL-0396,Company 396,Retail,Rahul,Cold Call,Closed Lost,2046170,0.0,2025-07-30,2025-11-29,2025-11-29,Lost
+DEAL-0397,Company 397,Finance,Vikram,Email Campaign,Closed Won,3897125,1.0,2025-08-14,2025-09-27,2025-09-27,Won
+DEAL-0398,Company 398,Retail,Priya,Website,Negotiation,4465677,0.75,2025-08-06,2026-01-30,,Open
+DEAL-0399,Company 399,Technology,Ananya,Website,Prospecting,4912894,0.1,2025-11-03,2026-01-31,,Open
+DEAL-0400,Company 400,Healthcare,Sneha,Partner,Negotiation,4402892,0.75,2025-10-16,2026-01-04,,Open
+DEAL-0401,Company 401,Healthcare,Sneha,Referral,Qualification,4282851,0.25,2025-07-20,2025-10-29,,Open
+DEAL-0402,Company 402,Education,Ananya,Email Campaign,Prospecting,677220,0.1,2025-05-23,2025-10-01,,Open
+DEAL-0403,Company 403,Retail,Vikram,Referral,Closed Won,1515744,1.0,2026-04-05,2026-07-27,2026-07-27,Won
+DEAL-0404,Company 404,Healthcare,Arjun,Referral,Closed Won,4108848,1.0,2025-04-25,2025-10-07,2025-10-07,Won
+DEAL-0405,Company 405,Manufacturing,Arjun,LinkedIn,Closed Won,771037,1.0,2026-07-12,2026-10-06,2026-10-06,Won
+DEAL-0406,Company 406,Manufacturing,Priya,Partner,Proposal,2431306,0.5,2026-06-26,2026-08-04,,Open
+DEAL-0407,Company 407,Technology,Sneha,Email Campaign,Closed Lost,565693,0.0,2025-03-24,2025-04-26,2025-04-26,Lost
+DEAL-0408,Company 408,Technology,Sneha,LinkedIn,Negotiation,1126941,0.75,2025-06-22,2025-11-07,,Open
+DEAL-0409,Company 409,Technology,Ananya,Website,Prospecting,2459381,0.1,2026-02-02,2026-07-30,,Open
+DEAL-0410,Company 410,Manufacturing,Arjun,Cold Call,Proposal,3333616,0.5,2025-11-16,2026-02-27,,Open
+DEAL-0411,Company 411,Retail,Priya,Website,Proposal,4369453,0.5,2025-11-30,2026-02-20,,Open
+DEAL-0412,Company 412,Education,Ananya,Website,Prospecting,3258823,0.1,2026-08-21,2026-09-20,,Open
+DEAL-0413,Company 413,Education,Vikram,Cold Call,Qualification,3381106,0.25,2026-03-08,2026-05-11,,Open
+DEAL-0414,Company 414,Retail,Arjun,Website,Prospecting,451067,0.1,2025-10-31,2026-03-31,,Open
+DEAL-0415,Company 415,Education,Sneha,Partner,Closed Lost,362023,0.0,2026-04-27,2026-05-19,2026-05-19,Lost
+DEAL-0416,Company 416,Finance,Sneha,Cold Call,Prospecting,1949054,0.1,2026-08-11,2027-01-19,,Open
+DEAL-0417,Company 417,Technology,Vikram,LinkedIn,Negotiation,3669348,0.75,2026-02-10,2026-03-16,,Open
+DEAL-0418,Company 418,Retail,Ananya,Email Campaign,Proposal,2820742,0.5,2025-05-12,2025-06-23,,Open
+DEAL-0419,Company 419,Healthcare,Rahul,Website,Closed Lost,4159803,0.0,2026-08-02,2027-01-25,2027-01-25,Lost
+DEAL-0420,Company 420,Finance,Rahul,Cold Call,Prospecting,3150581,0.1,2026-08-07,2027-01-21,,Open
+DEAL-0421,Company 421,Finance,Rahul,Website,Closed Lost,3171881,0.0,2025-09-19,2026-02-04,2026-02-04,Lost
+DEAL-0422,Company 422,Healthcare,Vikram,Email Campaign,Proposal,1403324,0.5,2025-04-03,2025-09-06,,Open
+DEAL-0423,Company 423,Retail,Sneha,Website,Qualification,2922176,0.25,2025-02-18,2025-04-16,,Open
+DEAL-0424,Company 424,Finance,Arjun,Partner,Proposal,4510276,0.5,2025-12-07,2026-02-21,,Open
+DEAL-0425,Company 425,Technology,Rahul,Website,Qualification,2104376,0.25,2026-01-17,2026-03-09,,Open
+DEAL-0426,Company 426,Healthcare,Ananya,LinkedIn,Closed Won,2458630,1.0,2026-07-25,2026-12-27,2026-12-27,Won
+DEAL-0427,Company 427,Healthcare,Sneha,Cold Call,Qualification,4952444,0.25,2025-11-29,2026-03-31,,Open
+DEAL-0428,Company 428,Education,Priya,Email Campaign,Negotiation,2125915,0.75,2025-04-19,2025-10-11,,Open
+DEAL-0429,Company 429,Manufacturing,Ananya,Cold Call,Prospecting,3014932,0.1,2025-09-07,2025-12-21,,Open
+DEAL-0430,Company 430,Finance,Priya,Referral,Prospecting,4048422,0.1,2026-03-07,2026-06-13,,Open
+DEAL-0431,Company 431,Finance,Vikram,LinkedIn,Closed Won,4458285,1.0,2025-11-20,2026-05-17,2026-05-17,Won
+DEAL-0432,Company 432,Finance,Arjun,Website,Closed Won,3294967,1.0,2026-02-16,2026-05-17,2026-05-17,Won
+DEAL-0433,Company 433,Manufacturing,Priya,LinkedIn,Closed Won,2592017,1.0,2025-04-15,2025-05-09,2025-05-09,Won
+DEAL-0434,Company 434,Healthcare,Sneha,Partner,Negotiation,2211352,0.75,2025-04-28,2025-06-09,,Open
+DEAL-0435,Company 435,Manufacturing,Priya,Website,Prospecting,3033516,0.1,2026-05-29,2026-11-03,,Open
+DEAL-0436,Company 436,Education,Priya,Cold Call,Proposal,560370,0.5,2025-09-25,2025-12-03,,Open
+DEAL-0437,Company 437,Technology,Ananya,Email Campaign,Qualification,258944,0.25,2025-08-01,2026-01-15,,Open
+DEAL-0438,Company 438,Healthcare,Vikram,Website,Closed Won,4716805,1.0,2025-10-04,2026-03-31,2026-03-31,Won
+DEAL-0439,Company 439,Healthcare,Arjun,Email Campaign,Qualification,4804619,0.25,2025-01-30,2025-03-17,,Open
+DEAL-0440,Company 440,Healthcare,Priya,LinkedIn,Closed Won,2711198,1.0,2025-06-21,2025-07-28,2025-07-28,Won
+DEAL-0441,Company 441,Finance,Sneha,Cold Call,Qualification,2230707,0.25,2025-04-28,2025-10-11,,Open
+DEAL-0442,Company 442,Technology,Sneha,LinkedIn,Prospecting,118803,0.1,2025-01-07,2025-03-27,,Open
+DEAL-0443,Company 443,Healthcare,Rahul,Website,Negotiation,67297,0.75,2025-07-21,2025-12-08,,Open
+DEAL-0444,Company 444,Retail,Ananya,Website,Proposal,1383572,0.5,2026-07-30,2026-12-07,,Open
+DEAL-0445,Company 445,Manufacturing,Arjun,LinkedIn,Prospecting,3375315,0.1,2025-01-31,2025-04-24,,Open
+DEAL-0446,Company 446,Manufacturing,Ananya,LinkedIn,Qualification,4445564,0.25,2025-03-16,2025-09-01,,Open
+DEAL-0447,Company 447,Manufacturing,Arjun,Cold Call,Prospecting,426794,0.1,2026-03-24,2026-05-27,,Open
+DEAL-0448,Company 448,Education,Vikram,Referral,Prospecting,832877,0.1,2025-09-02,2026-01-16,,Open
+DEAL-0449,Company 449,Education,Vikram,LinkedIn,Negotiation,3349973,0.75,2025-05-04,2025-09-08,,Open
+DEAL-0450,Company 450,Retail,Vikram,Cold Call,Prospecting,3529027,0.1,2026-03-07,2026-04-12,,Open
+DEAL-0451,Company 451,Manufacturing,Vikram,LinkedIn,Proposal,4246656,0.5,2026-05-04,2026-09-04,,Open
+DEAL-0452,Company 452,Education,Arjun,Referral,Qualification,4294402,0.25,2025-12-09,2026-03-31,,Open
+DEAL-0453,Company 453,Retail,Arjun,Email Campaign,Negotiation,2846461,0.75,2026-05-12,2026-06-16,,Open
+DEAL-0454,Company 454,Healthcare,Vikram,Referral,Proposal,1722795,0.5,2026-05-14,2026-09-30,,Open
+DEAL-0455,Company 455,Healthcare,Sneha,Referral,Proposal,1242931,0.5,2025-05-19,2025-06-19,,Open
+DEAL-0456,Company 456,Education,Vikram,Email Campaign,Closed Won,4422216,1.0,2025-04-14,2025-05-17,2025-05-17,Won
+DEAL-0457,Company 457,Healthcare,Arjun,Cold Call,Negotiation,4072928,0.75,2026-06-01,2026-10-11,,Open
+DEAL-0458,Company 458,Manufacturing,Arjun,Email Campaign,Proposal,838140,0.5,2025-09-24,2026-03-06,,Open
+DEAL-0459,Company 459,Finance,Sneha,Partner,Qualification,4638727,0.25,2026-06-01,2026-07-31,,Open
+DEAL-0460,Company 460,Manufacturing,Priya,Email Campaign,Prospecting,2277503,0.1,2026-06-13,2026-08-18,,Open
+DEAL-0461,Company 461,Healthcare,Arjun,Website,Qualification,4172186,0.25,2025-04-12,2025-09-24,,Open
+DEAL-0462,Company 462,Retail,Arjun,Email Campaign,Negotiation,4805185,0.75,2026-05-14,2026-08-18,,Open
+DEAL-0463,Company 463,Education,Rahul,Website,Prospecting,175438,0.1,2025-12-31,2026-05-10,,Open
+DEAL-0464,Company 464,Education,Ananya,Cold Call,Qualification,2851445,0.25,2025-05-27,2025-08-18,,Open
+DEAL-0465,Company 465,Manufacturing,Arjun,LinkedIn,Proposal,3819457,0.5,2025-10-14,2026-01-29,,Open
+DEAL-0466,Company 466,Healthcare,Ananya,Website,Negotiation,2487245,0.75,2026-07-20,2027-01-02,,Open
+DEAL-0467,Company 467,Finance,Rahul,Partner,Closed Lost,1388530,0.0,2025-10-30,2025-11-21,2025-11-21,Lost
+DEAL-0468,Company 468,Education,Vikram,Cold Call,Negotiation,738152,0.75,2026-08-02,2027-01-06,,Open
+DEAL-0469,Company 469,Retail,Arjun,Referral,Closed Won,1499087,1.0,2025-07-07,2025-07-22,2025-07-22,Won
+DEAL-0470,Company 470,Retail,Ananya,Partner,Proposal,2896230,0.5,2025-04-14,2025-09-03,,Open
+DEAL-0471,Company 471,Education,Vikram,LinkedIn,Prospecting,1347991,0.1,2025-03-16,2025-05-03,,Open
+DEAL-0472,Company 472,Finance,Priya,Email Campaign,Negotiation,3217759,0.75,2025-05-03,2025-10-09,,Open
+DEAL-0473,Company 473,Retail,Priya,LinkedIn,Prospecting,2907281,0.1,2025-12-24,2026-01-20,,Open
+DEAL-0474,Company 474,Education,Vikram,Website,Qualification,3510989,0.25,2025-08-03,2025-12-13,,Open
+DEAL-0475,Company 475,Healthcare,Vikram,LinkedIn,Closed Lost,2300397,0.0,2025-08-21,2025-09-25,2025-09-25,Lost
+DEAL-0476,Company 476,Manufacturing,Priya,Referral,Closed Won,1522542,1.0,2025-11-09,2025-12-16,2025-12-16,Won
+DEAL-0477,Company 477,Finance,Sneha,Partner,Negotiation,1648099,0.75,2026-04-29,2026-05-27,,Open
+DEAL-0478,Company 478,Education,Arjun,Referral,Proposal,3948190,0.5,2025-02-22,2025-03-12,,Open
+DEAL-0479,Company 479,Finance,Priya,LinkedIn,Prospecting,2634182,0.1,2025-01-12,2025-03-01,,Open
+DEAL-0480,Company 480,Finance,Priya,Partner,Prospecting,628526,0.1,2026-07-15,2026-10-30,,Open
+DEAL-0481,Company 481,Technology,Ananya,Cold Call,Proposal,864422,0.5,2025-10-21,2025-11-12,,Open
+DEAL-0482,Company 482,Healthcare,Rahul,LinkedIn,Closed Won,1466842,1.0,2025-06-06,2025-10-05,2025-10-05,Won
+DEAL-0483,Company 483,Healthcare,Rahul,Partner,Closed Won,4129441,1.0,2026-03-04,2026-08-06,2026-08-06,Won
+DEAL-0484,Company 484,Technology,Sneha,LinkedIn,Negotiation,3435744,0.75,2026-07-22,2027-01-09,,Open
+DEAL-0485,Company 485,Education,Rahul,Email Campaign,Qualification,4076390,0.25,2025-06-24,2025-07-21,,Open
+DEAL-0486,Company 486,Technology,Vikram,Email Campaign,Negotiation,1454355,0.75,2026-06-07,2026-09-23,,Open
+DEAL-0487,Company 487,Retail,Rahul,LinkedIn,Proposal,2951092,0.5,2025-10-20,2026-02-14,,Open
+DEAL-0488,Company 488,Finance,Vikram,Cold Call,Prospecting,2938939,0.1,2025-10-30,2025-11-26,,Open
+DEAL-0489,Company 489,Technology,Ananya,LinkedIn,Negotiation,3222382,0.75,2025-04-10,2025-09-08,,Open
+DEAL-0490,Company 490,Technology,Sneha,Referral,Closed Won,388540,1.0,2025-04-10,2025-10-03,2025-10-03,Won
+DEAL-0491,Company 491,Manufacturing,Ananya,Website,Prospecting,1344315,0.1,2025-01-03,2025-02-14,,Open
+DEAL-0492,Company 492,Technology,Rahul,Partner,Prospecting,1339467,0.1,2025-12-22,2026-01-18,,Open
+DEAL-0493,Company 493,Education,Priya,Partner,Proposal,1067481,0.5,2025-02-23,2025-04-25,,Open
+DEAL-0494,Company 494,Manufacturing,Rahul,Email Campaign,Closed Lost,856564,0.0,2026-06-09,2026-06-25,2026-06-25,Lost
+DEAL-0495,Company 495,Manufacturing,Rahul,Email Campaign,Proposal,787954,0.5,2026-02-02,2026-06-07,,Open
+DEAL-0496,Company 496,Retail,Priya,Email Campaign,Prospecting,4560579,0.1,2025-07-01,2025-12-15,,Open
+DEAL-0497,Company 497,Technology,Sneha,Referral,Qualification,2585232,0.25,2025-08-18,2026-02-04,,Open
+DEAL-0498,Company 498,Education,Ananya,Cold Call,Closed Won,965113,1.0,2026-05-17,2026-11-09,2026-11-09,Won
+DEAL-0499,Company 499,Manufacturing,Sneha,LinkedIn,Proposal,3251078,0.5,2025-02-02,2025-04-14,,Open
+DEAL-0500,Company 500,Healthcare,Rahul,Website,Closed Won,1548339,1.0,2026-01-08,2026-07-01,2026-07-01,Won
+DEAL-0501,Company 501,Retail,Arjun,Cold Call,Qualification,4192535,0.25,2026-05-19,2026-07-31,,Open
+DEAL-0502,Company 502,Retail,Sneha,Referral,Negotiation,2239921,0.75,2026-05-04,2026-08-05,,Open
+DEAL-0503,Company 503,Education,Sneha,Referral,Closed Lost,3307945,0.0,2026-05-31,2026-10-11,2026-10-11,Lost
+DEAL-0504,Company 504,Healthcare,Priya,Email Campaign,Prospecting,3256943,0.1,2025-11-27,2025-12-28,,Open
+DEAL-0505,Company 505,Finance,Arjun,Cold Call,Closed Won,814265,1.0,2025-07-18,2025-08-26,2025-08-26,Won
+DEAL-0506,Company 506,Retail,Sneha,LinkedIn,Closed Lost,2104410,0.0,2025-12-05,2026-04-02,2026-04-02,Lost
+DEAL-0507,Company 507,Technology,Ananya,Referral,Closed Lost,606718,0.0,2026-05-06,2026-07-16,2026-07-16,Lost
+DEAL-0508,Company 508,Technology,Priya,Partner,Qualification,318083,0.25,2025-01-05,2025-03-14,,Open
+DEAL-0509,Company 509,Manufacturing,Vikram,Partner,Proposal,3280431,0.5,2025-01-15,2025-02-19,,Open
+DEAL-0510,Company 510,Finance,Ananya,Cold Call,Closed Won,4026765,1.0,2025-10-21,2026-01-21,2026-01-21,Won
+DEAL-0511,Company 511,Education,Sneha,Cold Call,Proposal,4049453,0.5,2025-08-11,2025-08-31,,Open
+DEAL-0512,Company 512,Education,Priya,LinkedIn,Closed Won,2287035,1.0,2025-08-23,2025-11-20,2025-11-20,Won
+DEAL-0513,Company 513,Healthcare,Priya,Partner,Proposal,1157810,0.5,2026-05-07,2026-07-24,,Open
+DEAL-0514,Company 514,Finance,Priya,Partner,Prospecting,1399590,0.1,2025-11-28,2026-04-09,,Open
+DEAL-0515,Company 515,Education,Priya,Referral,Negotiation,1519793,0.75,2025-09-17,2025-11-13,,Open
+DEAL-0516,Company 516,Manufacturing,Sneha,Partner,Prospecting,976215,0.1,2025-09-04,2025-09-26,,Open
+DEAL-0517,Company 517,Finance,Ananya,Cold Call,Closed Won,2561910,1.0,2026-03-03,2026-06-09,2026-06-09,Won
+DEAL-0518,Company 518,Education,Sneha,Email Campaign,Closed Won,1700824,1.0,2025-03-27,2025-05-16,2025-05-16,Won
+DEAL-0519,Company 519,Finance,Arjun,Partner,Qualification,4924196,0.25,2025-09-12,2026-01-08,,Open
+DEAL-0520,Company 520,Education,Priya,Email Campaign,Proposal,1856684,0.5,2025-06-04,2025-11-06,,Open
+DEAL-0521,Company 521,Education,Rahul,LinkedIn,Proposal,4634946,0.5,2025-09-22,2026-01-03,,Open
+DEAL-0522,Company 522,Technology,Arjun,Referral,Prospecting,1590724,0.1,2026-02-08,2026-06-01,,Open
+DEAL-0523,Company 523,Retail,Vikram,LinkedIn,Closed Lost,1938529,0.0,2025-01-17,2025-05-04,2025-05-04,Lost
+DEAL-0524,Company 524,Finance,Priya,Cold Call,Closed Won,1686675,1.0,2025-03-23,2025-04-07,2025-04-07,Won
+DEAL-0525,Company 525,Healthcare,Rahul,Website,Prospecting,1085891,0.1,2026-02-08,2026-04-22,,Open
+DEAL-0526,Company 526,Healthcare,Vikram,LinkedIn,Closed Lost,1256184,0.0,2025-07-12,2025-12-12,2025-12-12,Lost
+DEAL-0527,Company 527,Retail,Priya,Cold Call,Closed Won,4189289,1.0,2026-08-11,2026-12-12,2026-12-12,Won
+DEAL-0528,Company 528,Finance,Sneha,Cold Call,Closed Won,4639699,1.0,2026-02-09,2026-05-18,2026-05-18,Won
+DEAL-0529,Company 529,Manufacturing,Sneha,Partner,Qualification,2579832,0.25,2025-08-09,2025-12-13,,Open
+DEAL-0530,Company 530,Healthcare,Vikram,Website,Prospecting,4658474,0.1,2026-05-20,2026-06-18,,Open
+DEAL-0531,Company 531,Finance,Vikram,Referral,Closed Won,1474663,1.0,2026-01-02,2026-06-29,2026-06-29,Won
+DEAL-0532,Company 532,Education,Vikram,Partner,Closed Won,197745,1.0,2025-01-04,2025-05-14,2025-05-14,Won
+DEAL-0533,Company 533,Manufacturing,Vikram,Website,Prospecting,3364344,0.1,2025-06-30,2025-09-06,,Open
+DEAL-0534,Company 534,Retail,Arjun,LinkedIn,Qualification,1997238,0.25,2026-01-26,2026-04-11,,Open
+DEAL-0535,Company 535,Manufacturing,Arjun,Email Campaign,Prospecting,3611262,0.1,2025-12-08,2026-03-08,,Open
+DEAL-0536,Company 536,Finance,Ananya,Partner,Closed Won,3353364,1.0,2025-06-18,2025-08-29,2025-08-29,Won
+DEAL-0537,Company 537,Healthcare,Ananya,Email Campaign,Closed Won,3745727,1.0,2026-06-21,2026-11-08,2026-11-08,Won
+DEAL-0538,Company 538,Education,Rahul,LinkedIn,Closed Won,1518919,1.0,2026-07-05,2026-09-11,2026-09-11,Won
+DEAL-0539,Company 539,Technology,Arjun,Referral,Prospecting,4946799,0.1,2025-07-21,2025-08-13,,Open
+DEAL-0540,Company 540,Technology,Arjun,Cold Call,Negotiation,1691232,0.75,2026-05-20,2026-09-22,,Open
+DEAL-0541,Company 541,Retail,Rahul,Website,Negotiation,834192,0.75,2025-04-12,2025-06-16,,Open
+DEAL-0542,Company 542,Healthcare,Ananya,Website,Negotiation,3579921,0.75,2025-03-29,2025-07-17,,Open
+DEAL-0543,Company 543,Technology,Rahul,Referral,Negotiation,587977,0.75,2026-02-11,2026-07-01,,Open
+DEAL-0544,Company 544,Education,Arjun,Website,Qualification,2209173,0.25,2026-04-22,2026-06-27,,Open
+DEAL-0545,Company 545,Technology,Rahul,LinkedIn,Negotiation,4547968,0.75,2026-07-29,2026-11-29,,Open
+DEAL-0546,Company 546,Retail,Priya,Website,Proposal,4026974,0.5,2026-04-19,2026-08-07,,Open
+DEAL-0547,Company 547,Finance,Rahul,Partner,Prospecting,4803267,0.1,2025-02-12,2025-05-15,,Open
+DEAL-0548,Company 548,Technology,Rahul,LinkedIn,Closed Won,4722412,1.0,2025-11-11,2026-03-26,2026-03-26,Won
+DEAL-0549,Company 549,Education,Ananya,LinkedIn,Negotiation,1083668,0.75,2025-07-12,2025-12-07,,Open
+DEAL-0550,Company 550,Retail,Sneha,Email Campaign,Closed Won,3725002,1.0,2026-08-15,2026-11-26,2026-11-26,Won
+DEAL-0551,Company 551,Technology,Vikram,Partner,Closed Won,665937,1.0,2025-05-31,2025-10-07,2025-10-07,Won
+DEAL-0552,Company 552,Healthcare,Priya,Email Campaign,Closed Won,4649409,1.0,2026-01-10,2026-04-17,2026-04-17,Won
+DEAL-0553,Company 553,Retail,Ananya,Cold Call,Prospecting,3080855,0.1,2026-04-09,2026-08-14,,Open
+DEAL-0554,Company 554,Manufacturing,Rahul,Cold Call,Qualification,142036,0.25,2025-11-27,2026-05-05,,Open
+DEAL-0555,Company 555,Healthcare,Rahul,Partner,Proposal,4479723,0.5,2026-07-23,2026-12-02,,Open
+DEAL-0556,Company 556,Finance,Ananya,Email Campaign,Qualification,4887231,0.25,2025-02-19,2025-07-06,,Open
+DEAL-0557,Company 557,Manufacturing,Arjun,Partner,Closed Won,4814812,1.0,2025-10-16,2026-03-14,2026-03-14,Won
+DEAL-0558,Company 558,Finance,Rahul,Website,Qualification,597219,0.25,2026-04-22,2026-07-27,,Open
+DEAL-0559,Company 559,Finance,Ananya,Referral,Proposal,4758569,0.5,2026-01-27,2026-02-27,,Open
+DEAL-0560,Company 560,Finance,Sneha,Website,Proposal,1947883,0.5,2025-11-21,2026-02-25,,Open
+DEAL-0561,Company 561,Technology,Arjun,Referral,Negotiation,2645834,0.75,2025-07-23,2025-11-12,,Open
+DEAL-0562,Company 562,Healthcare,Vikram,Partner,Closed Lost,1448949,0.0,2026-08-09,2026-10-01,2026-10-01,Lost
+DEAL-0563,Company 563,Retail,Arjun,Email Campaign,Proposal,1835818,0.5,2025-01-20,2025-07-01,,Open
+DEAL-0564,Company 564,Finance,Ananya,LinkedIn,Proposal,339134,0.5,2026-04-28,2026-07-04,,Open
+DEAL-0565,Company 565,Technology,Ananya,Website,Proposal,3885598,0.5,2025-05-14,2025-08-09,,Open
+DEAL-0566,Company 566,Healthcare,Priya,Website,Prospecting,101707,0.1,2026-03-19,2026-06-06,,Open
+DEAL-0567,Company 567,Healthcare,Vikram,LinkedIn,Closed Lost,4044420,0.0,2025-09-23,2026-03-06,2026-03-06,Lost
+DEAL-0568,Company 568,Education,Sneha,Website,Negotiation,929459,0.75,2025-09-05,2025-10-14,,Open
+DEAL-0569,Company 569,Retail,Arjun,Website,Closed Lost,3893139,0.0,2025-10-28,2026-03-28,2026-03-28,Lost
+DEAL-0570,Company 570,Manufacturing,Ananya,Website,Closed Won,4845464,1.0,2026-02-24,2026-06-24,2026-06-24,Won
+DEAL-0571,Company 571,Retail,Arjun,Cold Call,Proposal,2787946,0.5,2026-01-05,2026-07-01,,Open
+DEAL-0572,Company 572,Retail,Vikram,LinkedIn,Proposal,2406632,0.5,2025-05-07,2025-06-05,,Open
+DEAL-0573,Company 573,Technology,Arjun,Website,Prospecting,3850986,0.1,2025-03-14,2025-06-28,,Open
+DEAL-0574,Company 574,Education,Sneha,Website,Prospecting,3914044,0.1,2025-02-10,2025-06-17,,Open
+DEAL-0575,Company 575,Healthcare,Vikram,Referral,Qualification,4230266,0.25,2026-01-01,2026-02-24,,Open
+DEAL-0576,Company 576,Finance,Priya,Partner,Proposal,4330650,0.5,2025-11-10,2026-02-26,,Open
+DEAL-0577,Company 577,Finance,Ananya,Website,Qualification,4645130,0.25,2025-10-02,2026-02-24,,Open
+DEAL-0578,Company 578,Healthcare,Rahul,Website,Proposal,132409,0.5,2026-05-09,2026-10-04,,Open
+DEAL-0579,Company 579,Finance,Vikram,Referral,Prospecting,1971672,0.1,2026-07-03,2026-10-10,,Open
+DEAL-0580,Company 580,Finance,Sneha,LinkedIn,Closed Won,1693707,1.0,2025-12-29,2026-06-25,2026-06-25,Won
+DEAL-0581,Company 581,Manufacturing,Arjun,Referral,Prospecting,3418270,0.1,2026-07-03,2026-10-23,,Open
+DEAL-0582,Company 582,Education,Arjun,Partner,Proposal,1187411,0.5,2025-07-04,2025-11-30,,Open
+DEAL-0583,Company 583,Healthcare,Ananya,Partner,Prospecting,4538155,0.1,2025-03-29,2025-06-06,,Open
+DEAL-0584,Company 584,Education,Vikram,Website,Closed Lost,2072784,0.0,2025-05-01,2025-08-08,2025-08-08,Lost
+DEAL-0585,Company 585,Retail,Arjun,LinkedIn,Closed Won,2982977,1.0,2025-01-21,2025-05-24,2025-05-24,Won
+DEAL-0586,Company 586,Finance,Rahul,Cold Call,Qualification,702416,0.25,2025-03-10,2025-04-20,,Open
+DEAL-0587,Company 587,Technology,Vikram,Partner,Prospecting,1224846,0.1,2025-03-02,2025-06-12,,Open
+DEAL-0588,Company 588,Manufacturing,Priya,Website,Closed Lost,3188102,0.0,2026-06-28,2026-08-17,2026-08-17,Lost
+DEAL-0589,Company 589,Technology,Vikram,Cold Call,Closed Lost,111753,0.0,2025-12-28,2026-04-18,2026-04-18,Lost
+DEAL-0590,Company 590,Manufacturing,Rahul,Partner,Closed Won,2785090,1.0,2025-05-17,2025-07-09,2025-07-09,Won
+DEAL-0591,Company 591,Technology,Ananya,Website,Qualification,126240,0.25,2025-09-18,2026-03-09,,Open
+DEAL-0592,Company 592,Manufacturing,Sneha,Cold Call,Negotiation,929854,0.75,2025-10-12,2026-03-16,,Open
+DEAL-0593,Company 593,Retail,Priya,Partner,Prospecting,1732678,0.1,2026-02-05,2026-07-03,,Open
+DEAL-0594,Company 594,Finance,Sneha,LinkedIn,Prospecting,644557,0.1,2025-10-16,2026-03-01,,Open
+DEAL-0595,Company 595,Manufacturing,Arjun,Partner,Qualification,1470827,0.25,2025-08-22,2025-10-22,,Open
+DEAL-0596,Company 596,Education,Rahul,Website,Proposal,3822827,0.5,2026-01-17,2026-05-18,,Open
+DEAL-0597,Company 597,Finance,Priya,LinkedIn,Proposal,4848793,0.5,2026-04-26,2026-10-14,,Open
+DEAL-0598,Company 598,Technology,Vikram,Cold Call,Prospecting,2453233,0.1,2025-05-21,2025-07-22,,Open
+DEAL-0599,Company 599,Education,Vikram,Referral,Closed Lost,1183183,0.0,2025-10-22,2025-11-22,2025-11-22,Lost
+DEAL-0600,Company 600,Technology,Arjun,Website,Proposal,1210294,0.5,2025-11-01,2026-01-16,,Open
+DEAL-0601,Company 601,Finance,Sneha,Website,Closed Won,614430,1.0,2025-09-08,2026-03-01,2026-03-01,Won
+DEAL-0602,Company 602,Technology,Ananya,Website,Closed Won,2198983,1.0,2025-03-14,2025-06-29,2025-06-29,Won
+DEAL-0603,Company 603,Healthcare,Arjun,Referral,Qualification,1910971,0.25,2026-05-14,2026-11-01,,Open
+DEAL-0604,Company 604,Healthcare,Priya,Partner,Negotiation,4805997,0.75,2026-03-05,2026-08-12,,Open
+DEAL-0605,Company 605,Retail,Sneha,Email Campaign,Prospecting,3198491,0.1,2026-06-02,2026-09-28,,Open
+DEAL-0606,Company 606,Retail,Vikram,LinkedIn,Proposal,2064017,0.5,2025-02-18,2025-05-22,,Open
+DEAL-0607,Company 607,Healthcare,Ananya,Email Campaign,Negotiation,3963397,0.75,2025-11-19,2026-01-12,,Open
+DEAL-0608,Company 608,Healthcare,Arjun,Partner,Negotiation,1515915,0.75,2026-05-22,2026-10-05,,Open
+DEAL-0609,Company 609,Retail,Priya,Cold Call,Proposal,2320463,0.5,2025-08-23,2025-12-07,,Open
+DEAL-0610,Company 610,Education,Vikram,Partner,Proposal,295144,0.5,2026-05-19,2026-07-30,,Open
+DEAL-0611,Company 611,Education,Arjun,Email Campaign,Closed Won,1896585,1.0,2026-04-25,2026-08-16,2026-08-16,Won
+DEAL-0612,Company 612,Education,Priya,Website,Prospecting,1658795,0.1,2026-06-25,2026-11-20,,Open
+DEAL-0613,Company 613,Finance,Sneha,Referral,Negotiation,3927590,0.75,2026-02-04,2026-03-11,,Open
+DEAL-0614,Company 614,Finance,Vikram,Cold Call,Negotiation,2759236,0.75,2026-04-30,2026-07-29,,Open
+DEAL-0615,Company 615,Education,Arjun,Referral,Proposal,4698455,0.5,2025-09-24,2025-12-04,,Open
+DEAL-0616,Company 616,Finance,Sneha,LinkedIn,Proposal,1855518,0.5,2025-10-27,2025-11-12,,Open
+DEAL-0617,Company 617,Technology,Ananya,Cold Call,Proposal,2032847,0.5,2025-11-14,2026-01-28,,Open
+DEAL-0618,Company 618,Healthcare,Sneha,Partner,Negotiation,1012452,0.75,2025-06-05,2025-07-02,,Open
+DEAL-0619,Company 619,Manufacturing,Sneha,Referral,Closed Won,2139934,1.0,2026-08-09,2026-09-15,2026-09-15,Won
+DEAL-0620,Company 620,Education,Ananya,Partner,Proposal,984048,0.5,2025-12-06,2025-12-21,,Open
+DEAL-0621,Company 621,Manufacturing,Priya,Partner,Proposal,514462,0.5,2026-02-09,2026-06-23,,Open
+DEAL-0622,Company 622,Education,Ananya,Referral,Qualification,2322759,0.25,2025-08-05,2026-01-23,,Open
+DEAL-0623,Company 623,Manufacturing,Arjun,Email Campaign,Closed Won,4181146,1.0,2025-09-15,2026-02-01,2026-02-01,Won
+DEAL-0624,Company 624,Finance,Arjun,Cold Call,Closed Won,638574,1.0,2025-10-26,2026-01-09,2026-01-09,Won
+DEAL-0625,Company 625,Retail,Arjun,LinkedIn,Qualification,4496460,0.25,2025-12-17,2026-02-04,,Open
+DEAL-0626,Company 626,Education,Arjun,Partner,Qualification,164589,0.25,2026-05-14,2026-07-15,,Open
+DEAL-0627,Company 627,Healthcare,Priya,LinkedIn,Closed Lost,2977053,0.0,2025-06-15,2025-10-07,2025-10-07,Lost
+DEAL-0628,Company 628,Healthcare,Rahul,Email Campaign,Closed Won,3282452,1.0,2026-05-30,2026-10-29,2026-10-29,Won
+DEAL-0629,Company 629,Education,Arjun,Website,Negotiation,3790030,0.75,2026-07-27,2026-10-23,,Open
+DEAL-0630,Company 630,Healthcare,Ananya,Referral,Proposal,4882303,0.5,2025-10-03,2026-03-18,,Open
+DEAL-0631,Company 631,Healthcare,Vikram,Email Campaign,Negotiation,1483284,0.75,2026-06-24,2026-11-18,,Open
+DEAL-0632,Company 632,Manufacturing,Arjun,LinkedIn,Closed Won,4651731,1.0,2026-07-16,2026-12-30,2026-12-30,Won
+DEAL-0633,Company 633,Healthcare,Vikram,Email Campaign,Qualification,4165345,0.25,2025-07-08,2025-11-19,,Open
+DEAL-0634,Company 634,Healthcare,Rahul,Email Campaign,Prospecting,915256,0.1,2025-12-09,2026-05-22,,Open
+DEAL-0635,Company 635,Manufacturing,Ananya,Referral,Negotiation,4523447,0.75,2025-07-12,2025-10-27,,Open
+DEAL-0636,Company 636,Manufacturing,Sneha,Partner,Prospecting,1434822,0.1,2026-02-08,2026-03-06,,Open
+DEAL-0637,Company 637,Manufacturing,Vikram,Cold Call,Negotiation,3395026,0.75,2025-06-15,2025-09-27,,Open
+DEAL-0638,Company 638,Manufacturing,Sneha,Cold Call,Proposal,1468826,0.5,2026-03-14,2026-05-10,,Open
+DEAL-0639,Company 639,Retail,Sneha,Partner,Prospecting,1449769,0.1,2025-10-23,2026-03-14,,Open
+DEAL-0640,Company 640,Technology,Arjun,LinkedIn,Negotiation,1944554,0.75,2026-06-03,2026-09-13,,Open
+DEAL-0641,Company 641,Technology,Vikram,Partner,Negotiation,3835961,0.75,2025-07-31,2025-12-11,,Open
+DEAL-0642,Company 642,Technology,Rahul,Referral,Proposal,2671158,0.5,2026-01-01,2026-01-27,,Open
+DEAL-0643,Company 643,Finance,Sneha,Referral,Proposal,4856546,0.5,2025-12-16,2026-04-07,,Open
+DEAL-0644,Company 644,Retail,Vikram,Email Campaign,Qualification,2347905,0.25,2025-10-03,2026-03-04,,Open
+DEAL-0645,Company 645,Healthcare,Ananya,Cold Call,Prospecting,1284215,0.1,2026-08-07,2027-01-19,,Open
+DEAL-0646,Company 646,Technology,Sneha,Cold Call,Closed Won,3368843,1.0,2026-07-22,2026-09-02,2026-09-02,Won
+DEAL-0647,Company 647,Manufacturing,Sneha,Referral,Closed Lost,328495,0.0,2025-01-13,2025-02-22,2025-02-22,Lost
+DEAL-0648,Company 648,Finance,Arjun,Email Campaign,Prospecting,1772199,0.1,2025-06-15,2025-07-21,,Open
+DEAL-0649,Company 649,Manufacturing,Arjun,Email Campaign,Prospecting,4647855,0.1,2025-10-29,2025-11-22,,Open
+DEAL-0650,Company 650,Technology,Priya,Website,Proposal,1833611,0.5,2025-04-22,2025-09-28,,Open
+DEAL-0651,Company 651,Manufacturing,Vikram,Website,Qualification,1502137,0.25,2026-03-15,2026-04-07,,Open
+DEAL-0652,Company 652,Education,Rahul,Website,Closed Won,647904,1.0,2026-06-14,2026-07-13,2026-07-13,Won
+DEAL-0653,Company 653,Education,Rahul,Email Campaign,Prospecting,1654243,0.1,2025-02-09,2025-05-16,,Open
+DEAL-0654,Company 654,Finance,Sneha,LinkedIn,Negotiation,1509410,0.75,2026-03-04,2026-05-05,,Open
+DEAL-0655,Company 655,Education,Rahul,Website,Prospecting,818223,0.1,2025-12-11,2026-05-15,,Open
+DEAL-0656,Company 656,Manufacturing,Ananya,Email Campaign,Proposal,1693909,0.5,2025-08-17,2025-11-29,,Open
+DEAL-0657,Company 657,Healthcare,Ananya,Partner,Qualification,2979735,0.25,2026-07-05,2026-12-26,,Open
+DEAL-0658,Company 658,Education,Ananya,Partner,Qualification,3250450,0.25,2025-04-30,2025-10-11,,Open
+DEAL-0659,Company 659,Finance,Arjun,LinkedIn,Qualification,2141013,0.25,2025-07-04,2025-10-25,,Open
+DEAL-0660,Company 660,Education,Ananya,Email Campaign,Negotiation,669696,0.75,2025-03-17,2025-07-02,,Open
+DEAL-0661,Company 661,Manufacturing,Sneha,Cold Call,Qualification,3026030,0.25,2025-12-11,2026-03-19,,Open
+DEAL-0662,Company 662,Retail,Vikram,Website,Closed Won,2936569,1.0,2026-07-11,2026-08-14,2026-08-14,Won
+DEAL-0663,Company 663,Finance,Arjun,Cold Call,Prospecting,1280796,0.1,2026-04-26,2026-07-07,,Open
+DEAL-0664,Company 664,Finance,Arjun,Cold Call,Negotiation,1962493,0.75,2025-10-06,2025-12-18,,Open
+DEAL-0665,Company 665,Finance,Ananya,Referral,Closed Won,4482027,1.0,2025-08-17,2025-09-16,2025-09-16,Won
+DEAL-0666,Company 666,Finance,Vikram,Partner,Closed Lost,4165741,0.0,2026-05-26,2026-09-13,2026-09-13,Lost
+DEAL-0667,Company 667,Education,Rahul,LinkedIn,Prospecting,4681889,0.1,2025-04-04,2025-07-21,,Open
+DEAL-0668,Company 668,Education,Sneha,Partner,Proposal,1980440,0.5,2025-05-23,2025-09-22,,Open
+DEAL-0669,Company 669,Technology,Sneha,LinkedIn,Closed Lost,2964611,0.0,2026-02-21,2026-06-26,2026-06-26,Lost
+DEAL-0670,Company 670,Retail,Rahul,Cold Call,Qualification,2871839,0.25,2025-04-08,2025-05-07,,Open
+DEAL-0671,Company 671,Healthcare,Priya,Partner,Prospecting,2165226,0.1,2025-03-13,2025-05-31,,Open
+DEAL-0672,Company 672,Technology,Priya,Cold Call,Prospecting,503222,0.1,2025-05-19,2025-06-19,,Open
+DEAL-0673,Company 673,Education,Vikram,LinkedIn,Qualification,2643157,0.25,2026-02-28,2026-06-24,,Open
+DEAL-0674,Company 674,Technology,Vikram,LinkedIn,Proposal,267314,0.5,2025-08-21,2025-12-01,,Open
+DEAL-0675,Company 675,Healthcare,Rahul,Partner,Closed Lost,2126775,0.0,2026-03-26,2026-09-12,2026-09-12,Lost
+DEAL-0676,Company 676,Education,Arjun,Email Campaign,Qualification,3931143,0.25,2025-05-27,2025-07-18,,Open
+DEAL-0677,Company 677,Retail,Priya,Cold Call,Qualification,3502629,0.25,2026-08-03,2026-09-29,,Open
+DEAL-0678,Company 678,Retail,Sneha,Partner,Negotiation,1679753,0.75,2025-11-04,2026-03-03,,Open
+DEAL-0679,Company 679,Healthcare,Sneha,Website,Qualification,3423307,0.25,2025-03-24,2025-07-20,,Open
+DEAL-0680,Company 680,Retail,Ananya,Email Campaign,Proposal,2572919,0.5,2025-07-29,2025-12-04,,Open
+DEAL-0681,Company 681,Manufacturing,Vikram,Website,Negotiation,2977503,0.75,2025-05-17,2025-07-01,,Open
+DEAL-0682,Company 682,Finance,Rahul,Referral,Prospecting,2476105,0.1,2026-05-26,2026-10-05,,Open
+DEAL-0683,Company 683,Technology,Arjun,Email Campaign,Qualification,320146,0.25,2025-12-26,2026-02-05,,Open
+DEAL-0684,Company 684,Finance,Sneha,Email Campaign,Negotiation,4522089,0.75,2025-04-15,2025-08-02,,Open
+DEAL-0685,Company 685,Technology,Ananya,Website,Qualification,696275,0.25,2026-04-16,2026-08-20,,Open
+DEAL-0686,Company 686,Technology,Sneha,Website,Closed Lost,4511213,0.0,2026-08-01,2027-01-11,2027-01-11,Lost
+DEAL-0687,Company 687,Manufacturing,Vikram,Referral,Proposal,2415885,0.5,2026-04-14,2026-08-22,,Open
+DEAL-0688,Company 688,Technology,Vikram,Website,Proposal,1642173,0.5,2025-09-07,2025-11-06,,Open
+DEAL-0689,Company 689,Retail,Arjun,Referral,Prospecting,347584,0.1,2025-03-11,2025-07-11,,Open
+DEAL-0690,Company 690,Retail,Rahul,LinkedIn,Qualification,3060087,0.25,2025-07-11,2025-10-22,,Open
+DEAL-0691,Company 691,Education,Arjun,Cold Call,Prospecting,3019791,0.1,2026-07-27,2026-10-04,,Open
+DEAL-0692,Company 692,Technology,Sneha,LinkedIn,Closed Won,3605912,1.0,2025-07-16,2025-08-01,2025-08-01,Won
+DEAL-0693,Company 693,Finance,Vikram,LinkedIn,Proposal,842330,0.5,2025-01-30,2025-04-30,,Open
+DEAL-0694,Company 694,Manufacturing,Rahul,Referral,Closed Won,696012,1.0,2026-03-21,2026-08-04,2026-08-04,Won
+DEAL-0695,Company 695,Technology,Ananya,Cold Call,Prospecting,2055534,0.1,2026-05-10,2026-08-08,,Open
+DEAL-0696,Company 696,Technology,Ananya,Partner,Qualification,986320,0.25,2025-04-21,2025-10-01,,Open
+DEAL-0697,Company 697,Manufacturing,Priya,Cold Call,Closed Won,482829,1.0,2025-07-27,2025-08-27,2025-08-27,Won
+DEAL-0698,Company 698,Healthcare,Ananya,Partner,Proposal,3970367,0.5,2025-06-15,2025-07-05,,Open
+DEAL-0699,Company 699,Education,Arjun,Cold Call,Closed Won,4031383,1.0,2025-08-27,2025-11-03,2025-11-03,Won
+DEAL-0700,Company 700,Manufacturing,Vikram,Partner,Qualification,2418756,0.25,2026-02-19,2026-05-04,,Open
+DEAL-0701,Company 701,Finance,Vikram,Referral,Proposal,1221248,0.5,2026-07-24,2027-01-16,,Open
+DEAL-0702,Company 702,Retail,Rahul,Website,Negotiation,4613653,0.75,2026-06-16,2026-11-23,,Open
+DEAL-0703,Company 703,Retail,Arjun,LinkedIn,Prospecting,4827421,0.1,2026-06-10,2026-10-30,,Open
+DEAL-0704,Company 704,Retail,Arjun,Referral,Negotiation,2760864,0.75,2026-02-23,2026-08-04,,Open
+DEAL-0705,Company 705,Technology,Arjun,Referral,Qualification,985783,0.25,2026-03-08,2026-07-25,,Open
+DEAL-0706,Company 706,Manufacturing,Priya,Partner,Qualification,3296434,0.25,2025-03-06,2025-08-08,,Open
+DEAL-0707,Company 707,Healthcare,Sneha,Partner,Qualification,3177022,0.25,2026-04-08,2026-06-01,,Open
+DEAL-0708,Company 708,Healthcare,Ananya,LinkedIn,Proposal,1058923,0.5,2026-01-23,2026-03-09,,Open
+DEAL-0709,Company 709,Retail,Arjun,Referral,Qualification,4717592,0.25,2025-06-08,2025-06-30,,Open
+DEAL-0710,Company 710,Finance,Ananya,Referral,Qualification,3977352,0.25,2025-05-05,2025-06-18,,Open
+DEAL-0711,Company 711,Healthcare,Ananya,Cold Call,Qualification,3157548,0.25,2025-07-16,2025-11-05,,Open
+DEAL-0712,Company 712,Education,Ananya,Email Campaign,Proposal,1109165,0.5,2026-03-29,2026-08-12,,Open
+DEAL-0713,Company 713,Finance,Priya,Referral,Closed Lost,2412460,0.0,2025-01-04,2025-02-19,2025-02-19,Lost
+DEAL-0714,Company 714,Healthcare,Arjun,Referral,Qualification,3385379,0.25,2026-04-02,2026-08-14,,Open
+DEAL-0715,Company 715,Technology,Arjun,Cold Call,Qualification,3930323,0.25,2026-02-05,2026-05-11,,Open
+DEAL-0716,Company 716,Technology,Sneha,Partner,Closed Won,540999,1.0,2026-02-20,2026-03-28,2026-03-28,Won
+DEAL-0717,Company 717,Technology,Priya,Website,Prospecting,106635,0.1,2026-05-30,2026-06-27,,Open
+DEAL-0718,Company 718,Education,Vikram,Email Campaign,Prospecting,4472888,0.1,2025-09-08,2025-12-14,,Open
+DEAL-0719,Company 719,Finance,Vikram,Website,Proposal,4028966,0.5,2025-09-13,2026-03-02,,Open
+DEAL-0720,Company 720,Technology,Rahul,Partner,Negotiation,665416,0.75,2026-08-09,2026-11-25,,Open
+DEAL-0721,Company 721,Healthcare,Arjun,LinkedIn,Qualification,3859395,0.25,2025-12-21,2026-01-14,,Open
+DEAL-0722,Company 722,Technology,Ananya,Referral,Closed Lost,4185316,0.0,2026-08-20,2027-01-16,2027-01-16,Lost
+DEAL-0723,Company 723,Technology,Arjun,Referral,Prospecting,4925217,0.1,2025-05-01,2025-07-29,,Open
+DEAL-0724,Company 724,Technology,Sneha,LinkedIn,Proposal,3007498,0.5,2026-04-28,2026-05-18,,Open
+DEAL-0725,Company 725,Retail,Ananya,Referral,Proposal,1985657,0.5,2026-03-07,2026-06-06,,Open
+DEAL-0726,Company 726,Manufacturing,Sneha,Email Campaign,Negotiation,959210,0.75,2026-04-19,2026-07-14,,Open
+DEAL-0727,Company 727,Education,Rahul,Email Campaign,Prospecting,1477197,0.1,2025-05-21,2025-08-06,,Open
+DEAL-0728,Company 728,Retail,Ananya,Cold Call,Prospecting,3103380,0.1,2026-06-04,2026-07-24,,Open
+DEAL-0729,Company 729,Manufacturing,Priya,Cold Call,Prospecting,983476,0.1,2025-06-24,2025-11-29,,Open
+DEAL-0730,Company 730,Healthcare,Sneha,Partner,Closed Won,1544139,1.0,2025-06-29,2025-08-11,2025-08-11,Won
+DEAL-0731,Company 731,Retail,Vikram,Email Campaign,Qualification,3249039,0.25,2026-03-12,2026-05-20,,Open
+DEAL-0732,Company 732,Manufacturing,Priya,Cold Call,Qualification,2610837,0.25,2025-10-08,2026-03-01,,Open
+DEAL-0733,Company 733,Manufacturing,Vikram,Email Campaign,Prospecting,551793,0.1,2025-01-30,2025-04-16,,Open
+DEAL-0734,Company 734,Manufacturing,Ananya,Email Campaign,Prospecting,1820403,0.1,2026-06-18,2026-11-26,,Open
+DEAL-0735,Company 735,Finance,Priya,Cold Call,Negotiation,2122723,0.75,2025-08-27,2026-01-20,,Open
+DEAL-0736,Company 736,Education,Sneha,Referral,Prospecting,4772340,0.1,2026-08-10,2026-10-31,,Open
+DEAL-0737,Company 737,Retail,Arjun,Referral,Proposal,1743481,0.5,2026-08-12,2026-11-29,,Open
+DEAL-0738,Company 738,Education,Arjun,Cold Call,Negotiation,1091566,0.75,2026-04-23,2026-07-31,,Open
+DEAL-0739,Company 739,Finance,Priya,Email Campaign,Proposal,1120913,0.5,2025-10-15,2026-03-16,,Open
+DEAL-0740,Company 740,Healthcare,Rahul,LinkedIn,Qualification,1467231,0.25,2025-05-24,2025-11-13,,Open
+DEAL-0741,Company 741,Finance,Sneha,Website,Negotiation,994131,0.75,2025-12-07,2026-04-11,,Open
+DEAL-0742,Company 742,Retail,Vikram,Referral,Closed Lost,242458,0.0,2025-08-13,2025-10-31,2025-10-31,Lost
+DEAL-0743,Company 743,Healthcare,Priya,LinkedIn,Closed Won,3946937,1.0,2026-01-21,2026-05-23,2026-05-23,Won
+DEAL-0744,Company 744,Healthcare,Priya,LinkedIn,Closed Lost,96250,0.0,2025-10-23,2025-11-18,2025-11-18,Lost
+DEAL-0745,Company 745,Manufacturing,Ananya,Email Campaign,Negotiation,926336,0.75,2025-07-01,2025-09-13,,Open
+DEAL-0746,Company 746,Technology,Ananya,Referral,Closed Lost,4121867,0.0,2025-04-06,2025-07-06,2025-07-06,Lost
+DEAL-0747,Company 747,Technology,Sneha,Referral,Prospecting,198725,0.1,2025-10-30,2025-12-05,,Open
+DEAL-0748,Company 748,Finance,Rahul,Referral,Negotiation,735338,0.75,2025-12-29,2026-06-23,,Open
+DEAL-0749,Company 749,Technology,Priya,Email Campaign,Prospecting,2168219,0.1,2025-01-12,2025-02-05,,Open
+DEAL-0750,Company 750,Retail,Ananya,LinkedIn,Closed Won,2265995,1.0,2025-02-08,2025-06-26,2025-06-26,Won
+DEAL-0751,Company 751,Retail,Vikram,Email Campaign,Closed Lost,3650952,0.0,2026-01-21,2026-03-05,2026-03-05,Lost
+DEAL-0752,Company 752,Manufacturing,Vikram,Referral,Qualification,1246311,0.25,2025-12-06,2026-04-09,,Open
+DEAL-0753,Company 753,Education,Sneha,Partner,Prospecting,1512603,0.1,2025-05-08,2025-06-27,,Open
+DEAL-0754,Company 754,Technology,Vikram,Email Campaign,Closed Lost,2485919,0.0,2025-07-25,2025-11-12,2025-11-12,Lost
+DEAL-0755,Company 755,Education,Arjun,LinkedIn,Proposal,2679137,0.5,2025-05-28,2025-11-09,,Open
+DEAL-0756,Company 756,Technology,Vikram,Partner,Prospecting,3911607,0.1,2026-03-28,2026-08-29,,Open
+DEAL-0757,Company 757,Retail,Rahul,Website,Prospecting,4061718,0.1,2025-11-13,2025-12-12,,Open
+DEAL-0758,Company 758,Education,Arjun,Email Campaign,Proposal,1891646,0.5,2025-11-06,2025-11-25,,Open
+DEAL-0759,Company 759,Healthcare,Rahul,Email Campaign,Closed Won,4478622,1.0,2025-07-25,2025-09-08,2025-09-08,Won
+DEAL-0760,Company 760,Healthcare,Sneha,LinkedIn,Proposal,1346573,0.5,2025-03-24,2025-08-26,,Open
+DEAL-0761,Company 761,Manufacturing,Priya,Cold Call,Prospecting,1671788,0.1,2025-07-20,2026-01-03,,Open
+DEAL-0762,Company 762,Retail,Sneha,LinkedIn,Qualification,4853290,0.25,2026-05-23,2026-10-13,,Open
+DEAL-0763,Company 763,Finance,Arjun,Email Campaign,Proposal,3246247,0.5,2026-07-20,2026-09-26,,Open
+DEAL-0764,Company 764,Education,Rahul,Website,Closed Won,4016914,1.0,2026-07-12,2026-09-22,2026-09-22,Won
+DEAL-0765,Company 765,Healthcare,Sneha,LinkedIn,Qualification,2216791,0.25,2025-11-22,2026-05-16,,Open
+DEAL-0766,Company 766,Retail,Rahul,Email Campaign,Negotiation,1859771,0.75,2026-04-20,2026-08-21,,Open
+DEAL-0767,Company 767,Education,Sneha,Website,Negotiation,2384482,0.75,2025-08-31,2026-02-02,,Open
+DEAL-0768,Company 768,Manufacturing,Arjun,LinkedIn,Proposal,3868971,0.5,2025-03-27,2025-07-28,,Open
+DEAL-0769,Company 769,Finance,Arjun,Cold Call,Proposal,2581113,0.5,2025-07-19,2025-11-25,,Open
+DEAL-0770,Company 770,Healthcare,Sneha,Partner,Negotiation,456547,0.75,2025-05-17,2025-07-09,,Open
+DEAL-0771,Company 771,Manufacturing,Ananya,Email Campaign,Prospecting,3932506,0.1,2025-02-11,2025-03-16,,Open
+DEAL-0772,Company 772,Healthcare,Sneha,Partner,Prospecting,1581817,0.1,2026-01-04,2026-04-27,,Open
+DEAL-0773,Company 773,Retail,Rahul,Email Campaign,Negotiation,1852502,0.75,2026-01-11,2026-03-27,,Open
+DEAL-0774,Company 774,Technology,Vikram,Website,Prospecting,1841396,0.1,2026-07-17,2026-10-27,,Open
+DEAL-0775,Company 775,Manufacturing,Sneha,LinkedIn,Qualification,4068293,0.25,2026-01-16,2026-05-26,,Open
+DEAL-0776,Company 776,Healthcare,Sneha,Partner,Negotiation,1744000,0.75,2026-04-25,2026-09-08,,Open
+DEAL-0777,Company 777,Healthcare,Rahul,Referral,Prospecting,4140284,0.1,2025-08-03,2025-09-14,,Open
+DEAL-0778,Company 778,Healthcare,Ananya,Email Campaign,Proposal,2416304,0.5,2025-02-23,2025-05-26,,Open
+DEAL-0779,Company 779,Retail,Vikram,Cold Call,Proposal,3780370,0.5,2025-09-30,2026-03-21,,Open
+DEAL-0780,Company 780,Finance,Arjun,Cold Call,Closed Won,3978685,1.0,2025-03-20,2025-07-14,2025-07-14,Won
+DEAL-0781,Company 781,Technology,Priya,Partner,Negotiation,1818693,0.75,2026-07-30,2026-10-16,,Open
+DEAL-0782,Company 782,Education,Priya,Partner,Proposal,3617945,0.5,2025-06-18,2025-11-14,,Open
+DEAL-0783,Company 783,Retail,Rahul,Email Campaign,Qualification,1890875,0.25,2026-05-28,2026-11-20,,Open
+DEAL-0784,Company 784,Manufacturing,Priya,Website,Prospecting,4056389,0.1,2026-03-03,2026-03-18,,Open
+DEAL-0785,Company 785,Healthcare,Sneha,Referral,Prospecting,3527794,0.1,2025-07-08,2025-12-21,,Open
+DEAL-0786,Company 786,Retail,Sneha,Cold Call,Closed Lost,4233583,0.0,2025-10-10,2026-03-19,2026-03-19,Lost
+DEAL-0787,Company 787,Retail,Vikram,Website,Closed Won,4580734,1.0,2026-06-12,2026-07-27,2026-07-27,Won
+DEAL-0788,Company 788,Technology,Sneha,Partner,Qualification,545919,0.25,2026-07-05,2026-08-27,,Open
+DEAL-0789,Company 789,Manufacturing,Sneha,Referral,Closed Won,1237018,1.0,2025-10-05,2025-10-31,2025-10-31,Won
+DEAL-0790,Company 790,Finance,Vikram,Partner,Prospecting,3300428,0.1,2025-03-31,2025-07-13,,Open
+DEAL-0791,Company 791,Finance,Ananya,Cold Call,Proposal,3928551,0.5,2026-08-05,2026-11-28,,Open
+DEAL-0792,Company 792,Manufacturing,Ananya,LinkedIn,Closed Won,1663560,1.0,2026-06-26,2026-07-22,2026-07-22,Won
+DEAL-0793,Company 793,Education,Rahul,LinkedIn,Closed Won,476888,1.0,2026-02-27,2026-05-28,2026-05-28,Won
+DEAL-0794,Company 794,Retail,Ananya,Referral,Negotiation,1778782,0.75,2025-04-27,2025-09-05,,Open
+DEAL-0795,Company 795,Finance,Rahul,Email Campaign,Proposal,305658,0.5,2025-09-16,2026-03-14,,Open
+DEAL-0796,Company 796,Finance,Vikram,Partner,Prospecting,775571,0.1,2026-01-13,2026-05-20,,Open
+DEAL-0797,Company 797,Healthcare,Ananya,Email Campaign,Proposal,2624469,0.5,2026-03-26,2026-07-03,,Open
+DEAL-0798,Company 798,Finance,Vikram,Partner,Negotiation,2880514,0.75,2025-08-12,2025-09-04,,Open
+DEAL-0799,Company 799,Education,Arjun,Referral,Negotiation,2777364,0.75,2026-02-20,2026-04-17,,Open
+DEAL-0800,Company 800,Healthcare,Arjun,LinkedIn,Qualification,2224758,0.25,2025-09-08,2026-02-26,,Open
+DEAL-0801,Company 801,Retail,Ananya,Cold Call,Qualification,140140,0.25,2025-12-14,2026-01-03,,Open
+DEAL-0802,Company 802,Finance,Sneha,Email Campaign,Closed Won,3796962,1.0,2025-12-15,2026-01-06,2026-01-06,Won
+DEAL-0803,Company 803,Education,Arjun,Website,Prospecting,1848594,0.1,2026-08-20,2026-11-29,,Open
+DEAL-0804,Company 804,Manufacturing,Priya,Website,Prospecting,3514524,0.1,2025-11-30,2026-02-23,,Open
+DEAL-0805,Company 805,Healthcare,Ananya,Website,Proposal,4520756,0.5,2026-02-12,2026-03-08,,Open
+DEAL-0806,Company 806,Technology,Sneha,Website,Closed Won,1067497,1.0,2025-11-02,2026-02-02,2026-02-02,Won
+DEAL-0807,Company 807,Finance,Ananya,Cold Call,Negotiation,3144510,0.75,2025-06-20,2025-07-29,,Open
+DEAL-0808,Company 808,Retail,Rahul,Email Campaign,Qualification,240285,0.25,2026-07-09,2026-09-20,,Open
+DEAL-0809,Company 809,Technology,Sneha,Email Campaign,Proposal,4638599,0.5,2025-06-28,2025-10-31,,Open
+DEAL-0810,Company 810,Finance,Ananya,Partner,Prospecting,3202963,0.1,2026-04-26,2026-07-16,,Open
+DEAL-0811,Company 811,Manufacturing,Priya,Referral,Prospecting,2609244,0.1,2026-03-05,2026-08-14,,Open
+DEAL-0812,Company 812,Retail,Vikram,Referral,Prospecting,281414,0.1,2025-03-07,2025-05-23,,Open
+DEAL-0813,Company 813,Healthcare,Vikram,Referral,Negotiation,1460808,0.75,2025-04-21,2025-09-29,,Open
+DEAL-0814,Company 814,Healthcare,Ananya,Partner,Negotiation,2389189,0.75,2025-01-14,2025-03-20,,Open
+DEAL-0815,Company 815,Retail,Arjun,Website,Closed Won,944801,1.0,2025-10-02,2026-01-16,2026-01-16,Won
+DEAL-0816,Company 816,Finance,Arjun,Partner,Closed Lost,4446208,0.0,2026-06-24,2026-10-15,2026-10-15,Lost
+DEAL-0817,Company 817,Retail,Arjun,Email Campaign,Closed Lost,878411,0.0,2025-12-09,2026-01-08,2026-01-08,Lost
+DEAL-0818,Company 818,Finance,Vikram,Website,Negotiation,2341947,0.75,2026-07-12,2026-10-19,,Open
+DEAL-0819,Company 819,Healthcare,Arjun,Partner,Qualification,3750357,0.25,2026-05-04,2026-07-21,,Open
+DEAL-0820,Company 820,Technology,Arjun,Cold Call,Qualification,181562,0.25,2026-08-12,2027-01-22,,Open
+DEAL-0821,Company 821,Finance,Sneha,LinkedIn,Negotiation,3461031,0.75,2026-04-11,2026-09-07,,Open
+DEAL-0822,Company 822,Education,Priya,Cold Call,Proposal,2610244,0.5,2025-12-13,2026-01-27,,Open
+DEAL-0823,Company 823,Manufacturing,Vikram,Email Campaign,Prospecting,4714496,0.1,2026-08-12,2026-12-05,,Open
+DEAL-0824,Company 824,Finance,Priya,Website,Proposal,2876267,0.5,2026-02-05,2026-03-16,,Open
+DEAL-0825,Company 825,Education,Arjun,Partner,Qualification,2067528,0.25,2025-05-14,2025-10-09,,Open
+DEAL-0826,Company 826,Healthcare,Priya,Website,Proposal,2545990,0.5,2025-06-17,2025-11-30,,Open
+DEAL-0827,Company 827,Education,Rahul,Email Campaign,Negotiation,437773,0.75,2025-12-10,2026-05-26,,Open
+DEAL-0828,Company 828,Finance,Vikram,LinkedIn,Proposal,4109626,0.5,2025-05-06,2025-10-11,,Open
+DEAL-0829,Company 829,Finance,Arjun,Website,Closed Lost,3596293,0.0,2025-01-25,2025-06-17,2025-06-17,Lost
+DEAL-0830,Company 830,Education,Priya,Partner,Proposal,1975464,0.5,2026-03-15,2026-08-10,,Open
+DEAL-0831,Company 831,Technology,Sneha,Referral,Prospecting,1834094,0.1,2025-02-17,2025-04-02,,Open
+DEAL-0832,Company 832,Retail,Rahul,Cold Call,Closed Won,4347084,1.0,2026-08-23,2026-09-21,2026-09-21,Won
+DEAL-0833,Company 833,Healthcare,Rahul,Email Campaign,Closed Lost,2481129,0.0,2025-05-17,2025-06-16,2025-06-16,Lost
+DEAL-0834,Company 834,Finance,Vikram,Cold Call,Proposal,2019412,0.5,2025-03-10,2025-08-17,,Open
+DEAL-0835,Company 835,Manufacturing,Rahul,Partner,Prospecting,530350,0.1,2025-11-26,2026-02-15,,Open
+DEAL-0836,Company 836,Education,Sneha,Cold Call,Qualification,4041818,0.25,2025-04-27,2025-06-22,,Open
+DEAL-0837,Company 837,Retail,Priya,Partner,Qualification,4785524,0.25,2025-09-25,2025-12-21,,Open
+DEAL-0838,Company 838,Education,Vikram,Partner,Negotiation,3081830,0.75,2026-07-26,2026-10-12,,Open
+DEAL-0839,Company 839,Finance,Sneha,Email Campaign,Prospecting,1053510,0.1,2025-06-28,2025-08-12,,Open
+DEAL-0840,Company 840,Finance,Sneha,Referral,Negotiation,3560764,0.75,2025-07-02,2025-07-29,,Open
+DEAL-0841,Company 841,Finance,Arjun,Partner,Qualification,2410901,0.25,2026-01-10,2026-05-03,,Open
+DEAL-0842,Company 842,Manufacturing,Rahul,Email Campaign,Prospecting,4467338,0.1,2025-07-11,2025-11-28,,Open
+DEAL-0843,Company 843,Technology,Arjun,Partner,Closed Won,2244358,1.0,2025-01-15,2025-02-12,2025-02-12,Won
+DEAL-0844,Company 844,Manufacturing,Arjun,Referral,Qualification,819565,0.25,2026-06-03,2026-11-08,,Open
+DEAL-0845,Company 845,Education,Vikram,LinkedIn,Proposal,1048899,0.5,2026-08-15,2026-09-15,,Open
+DEAL-0846,Company 846,Finance,Ananya,Cold Call,Qualification,4255089,0.25,2026-06-06,2026-06-26,,Open
+DEAL-0847,Company 847,Healthcare,Priya,LinkedIn,Proposal,4507910,0.5,2025-05-06,2025-10-19,,Open
+DEAL-0848,Company 848,Education,Ananya,Partner,Prospecting,436213,0.1,2026-04-27,2026-08-09,,Open
+DEAL-0849,Company 849,Technology,Vikram,Website,Closed Lost,728066,0.0,2025-11-24,2026-02-05,2026-02-05,Lost
+DEAL-0850,Company 850,Healthcare,Ananya,Cold Call,Qualification,1565509,0.25,2025-07-10,2025-11-24,,Open
+DEAL-0851,Company 851,Technology,Arjun,LinkedIn,Closed Lost,2919530,0.0,2026-06-03,2026-09-12,2026-09-12,Lost
+DEAL-0852,Company 852,Retail,Vikram,Website,Negotiation,400068,0.75,2025-10-25,2026-01-10,,Open
+DEAL-0853,Company 853,Healthcare,Sneha,Partner,Proposal,2788384,0.5,2026-01-18,2026-06-14,,Open
+DEAL-0854,Company 854,Technology,Sneha,Email Campaign,Negotiation,221277,0.75,2025-04-26,2025-07-10,,Open
+DEAL-0855,Company 855,Finance,Sneha,LinkedIn,Prospecting,1431710,0.1,2025-02-19,2025-04-01,,Open
+DEAL-0856,Company 856,Education,Ananya,Email Campaign,Qualification,923420,0.25,2026-07-13,2026-10-31,,Open
+DEAL-0857,Company 857,Finance,Ananya,Cold Call,Qualification,994461,0.25,2025-01-01,2025-04-23,,Open
+DEAL-0858,Company 858,Finance,Rahul,Cold Call,Closed Lost,2755421,0.0,2026-07-04,2026-09-10,2026-09-10,Lost
+DEAL-0859,Company 859,Education,Vikram,Partner,Proposal,3338157,0.5,2026-07-22,2026-10-29,,Open
+DEAL-0860,Company 860,Technology,Arjun,Website,Closed Won,2306356,1.0,2025-10-18,2026-03-03,2026-03-03,Won
+DEAL-0861,Company 861,Finance,Ananya,Partner,Closed Won,4951366,1.0,2026-03-18,2026-06-25,2026-06-25,Won
+DEAL-0862,Company 862,Technology,Vikram,Website,Prospecting,3355107,0.1,2026-08-16,2026-10-20,,Open
+DEAL-0863,Company 863,Retail,Ananya,Partner,Prospecting,3850760,0.1,2026-03-02,2026-07-01,,Open
+DEAL-0864,Company 864,Technology,Priya,Website,Prospecting,3896300,0.1,2025-10-05,2026-02-06,,Open
+DEAL-0865,Company 865,Education,Priya,LinkedIn,Prospecting,2131280,0.1,2025-04-07,2025-04-25,,Open
+DEAL-0866,Company 866,Technology,Sneha,Email Campaign,Negotiation,1067375,0.75,2025-02-28,2025-06-28,,Open
+DEAL-0867,Company 867,Finance,Priya,Website,Qualification,2657421,0.25,2026-08-05,2026-11-14,,Open
+DEAL-0868,Company 868,Education,Arjun,Cold Call,Closed Won,4714759,1.0,2025-01-13,2025-05-20,2025-05-20,Won
+DEAL-0869,Company 869,Manufacturing,Arjun,Partner,Closed Won,2193184,1.0,2026-03-02,2026-08-14,2026-08-14,Won
+DEAL-0870,Company 870,Manufacturing,Ananya,Referral,Qualification,3529799,0.25,2025-03-12,2025-04-02,,Open
+DEAL-0871,Company 871,Education,Vikram,Referral,Closed Won,930432,1.0,2025-07-12,2025-11-10,2025-11-10,Won
+DEAL-0872,Company 872,Healthcare,Arjun,Partner,Qualification,4872778,0.25,2026-06-05,2026-07-31,,Open
+DEAL-0873,Company 873,Manufacturing,Rahul,Website,Prospecting,1292522,0.1,2025-05-08,2025-07-26,,Open
+DEAL-0874,Company 874,Manufacturing,Rahul,Email Campaign,Prospecting,2091215,0.1,2026-06-20,2026-09-25,,Open
+DEAL-0875,Company 875,Education,Arjun,Website,Closed Won,4978476,1.0,2026-07-28,2026-12-15,2026-12-15,Won
+DEAL-0876,Company 876,Finance,Priya,Website,Closed Lost,711440,0.0,2026-07-08,2026-11-11,2026-11-11,Lost
+DEAL-0877,Company 877,Manufacturing,Arjun,LinkedIn,Negotiation,431325,0.75,2025-10-21,2026-02-22,,Open
+DEAL-0878,Company 878,Education,Rahul,Email Campaign,Prospecting,1008379,0.1,2026-07-23,2026-11-28,,Open
+DEAL-0879,Company 879,Education,Sneha,LinkedIn,Closed Lost,56464,0.0,2026-04-22,2026-05-27,2026-05-27,Lost
+DEAL-0880,Company 880,Retail,Rahul,Email Campaign,Prospecting,1894277,0.1,2025-03-02,2025-06-04,,Open
+DEAL-0881,Company 881,Healthcare,Sneha,Cold Call,Closed Lost,2251279,0.0,2026-08-09,2026-12-22,2026-12-22,Lost
+DEAL-0882,Company 882,Healthcare,Priya,Referral,Closed Lost,482941,0.0,2025-11-23,2026-02-23,2026-02-23,Lost
+DEAL-0883,Company 883,Technology,Ananya,Cold Call,Negotiation,1890277,0.75,2026-03-10,2026-06-16,,Open
+DEAL-0884,Company 884,Technology,Priya,Cold Call,Qualification,736290,0.25,2025-02-27,2025-04-27,,Open
+DEAL-0885,Company 885,Retail,Vikram,LinkedIn,Closed Lost,2230139,0.0,2026-01-26,2026-05-17,2026-05-17,Lost
+DEAL-0886,Company 886,Finance,Rahul,Partner,Prospecting,3821460,0.1,2025-07-04,2025-09-11,,Open
+DEAL-0887,Company 887,Education,Priya,Website,Closed Won,3461097,1.0,2025-11-30,2026-02-19,2026-02-19,Won
+DEAL-0888,Company 888,Finance,Arjun,Website,Closed Won,3272018,1.0,2025-06-18,2025-08-02,2025-08-02,Won
+DEAL-0889,Company 889,Finance,Priya,Partner,Closed Lost,3828271,0.0,2025-01-01,2025-01-25,2025-01-25,Lost
+DEAL-0890,Company 890,Retail,Rahul,Partner,Prospecting,978864,0.1,2025-05-06,2025-07-10,,Open
+DEAL-0891,Company 891,Retail,Priya,Cold Call,Prospecting,4184608,0.1,2025-10-11,2026-03-04,,Open
+DEAL-0892,Company 892,Finance,Rahul,LinkedIn,Negotiation,594344,0.75,2025-09-28,2025-11-03,,Open
+DEAL-0893,Company 893,Manufacturing,Rahul,Cold Call,Negotiation,2960744,0.75,2025-03-15,2025-07-24,,Open
+DEAL-0894,Company 894,Technology,Vikram,Website,Qualification,2965751,0.25,2025-12-10,2026-03-31,,Open
+DEAL-0895,Company 895,Technology,Sneha,Website,Proposal,3430575,0.5,2025-05-10,2025-07-25,,Open
+DEAL-0896,Company 896,Education,Priya,Cold Call,Closed Lost,466561,0.0,2025-09-30,2026-01-07,2026-01-07,Lost
+DEAL-0897,Company 897,Finance,Sneha,Cold Call,Proposal,3810713,0.5,2025-06-01,2025-07-03,,Open
+DEAL-0898,Company 898,Retail,Priya,LinkedIn,Qualification,444768,0.25,2026-07-11,2026-12-29,,Open
+DEAL-0899,Company 899,Retail,Rahul,Cold Call,Proposal,4759751,0.5,2026-02-08,2026-06-09,,Open
+DEAL-0900,Company 900,Finance,Sneha,Referral,Proposal,4998122,0.5,2025-03-20,2025-04-22,,Open
+DEAL-0901,Company 901,Education,Arjun,Referral,Qualification,1491945,0.25,2025-06-03,2025-09-07,,Open
+DEAL-0902,Company 902,Healthcare,Arjun,Website,Closed Won,1784635,1.0,2025-09-30,2025-12-16,2025-12-16,Won
+DEAL-0903,Company 903,Retail,Vikram,Partner,Qualification,3941865,0.25,2026-07-21,2026-09-25,,Open
+DEAL-0904,Company 904,Manufacturing,Rahul,Website,Prospecting,1810143,0.1,2025-02-15,2025-04-24,,Open
+DEAL-0905,Company 905,Retail,Ananya,Email Campaign,Negotiation,79813,0.75,2026-06-21,2026-12-09,,Open
+DEAL-0906,Company 906,Manufacturing,Rahul,Referral,Proposal,1665181,0.5,2025-12-02,2026-03-16,,Open
+DEAL-0907,Company 907,Education,Priya,LinkedIn,Qualification,820348,0.25,2025-05-01,2025-07-22,,Open
+DEAL-0908,Company 908,Finance,Sneha,Website,Proposal,3978683,0.5,2026-05-29,2026-10-30,,Open
+DEAL-0909,Company 909,Education,Sneha,Email Campaign,Negotiation,993831,0.75,2026-08-13,2026-09-22,,Open
+DEAL-0910,Company 910,Education,Rahul,Partner,Closed Lost,2633273,0.0,2026-08-01,2026-11-02,2026-11-02,Lost
+DEAL-0911,Company 911,Healthcare,Sneha,Referral,Closed Won,3489187,1.0,2025-10-31,2025-12-30,2025-12-30,Won
+DEAL-0912,Company 912,Finance,Sneha,Cold Call,Proposal,3490227,0.5,2026-05-27,2026-09-01,,Open
+DEAL-0913,Company 913,Manufacturing,Priya,Email Campaign,Proposal,399317,0.5,2025-08-26,2025-12-18,,Open
+DEAL-0914,Company 914,Healthcare,Ananya,Email Campaign,Proposal,3708997,0.5,2025-06-29,2025-09-02,,Open
+DEAL-0915,Company 915,Healthcare,Vikram,LinkedIn,Prospecting,1097146,0.1,2025-06-04,2025-10-31,,Open
+DEAL-0916,Company 916,Education,Vikram,Website,Closed Won,2880527,1.0,2025-05-23,2025-08-14,2025-08-14,Won
+DEAL-0917,Company 917,Education,Rahul,LinkedIn,Proposal,3521888,0.5,2025-09-28,2025-12-23,,Open
+DEAL-0918,Company 918,Healthcare,Ananya,Partner,Closed Lost,2253463,0.0,2026-02-26,2026-07-15,2026-07-15,Lost
+DEAL-0919,Company 919,Finance,Rahul,Website,Qualification,3992518,0.25,2025-12-30,2026-01-23,,Open
+DEAL-0920,Company 920,Education,Ananya,Website,Prospecting,3321593,0.1,2026-05-31,2026-09-28,,Open
+DEAL-0921,Company 921,Retail,Rahul,Referral,Negotiation,2862753,0.75,2025-05-12,2025-10-03,,Open
+DEAL-0922,Company 922,Retail,Rahul,Referral,Negotiation,1168844,0.75,2026-01-27,2026-06-17,,Open
+DEAL-0923,Company 923,Retail,Priya,Cold Call,Qualification,1507913,0.25,2026-06-04,2026-08-10,,Open
+DEAL-0924,Company 924,Retail,Vikram,Partner,Closed Won,1038167,1.0,2025-07-31,2025-11-28,2025-11-28,Won
+DEAL-0925,Company 925,Manufacturing,Sneha,Website,Proposal,1894053,0.5,2026-03-14,2026-05-17,,Open
+DEAL-0926,Company 926,Manufacturing,Sneha,Referral,Negotiation,423145,0.75,2025-05-09,2025-07-06,,Open
+DEAL-0927,Company 927,Finance,Ananya,LinkedIn,Prospecting,1270985,0.1,2026-01-10,2026-03-16,,Open
+DEAL-0928,Company 928,Education,Rahul,Partner,Closed Lost,3833799,0.0,2025-09-23,2025-12-16,2025-12-16,Lost
+DEAL-0929,Company 929,Retail,Rahul,Email Campaign,Proposal,4672295,0.5,2025-02-08,2025-03-12,,Open
+DEAL-0930,Company 930,Technology,Sneha,Referral,Prospecting,4155513,0.1,2025-12-18,2026-04-21,,Open
+DEAL-0931,Company 931,Finance,Rahul,Email Campaign,Proposal,3111481,0.5,2026-06-28,2026-09-25,,Open
+DEAL-0932,Company 932,Technology,Vikram,Referral,Qualification,821965,0.25,2025-08-20,2025-10-04,,Open
+DEAL-0933,Company 933,Healthcare,Arjun,Referral,Proposal,4144638,0.5,2026-06-14,2026-09-20,,Open
+DEAL-0934,Company 934,Education,Ananya,Email Campaign,Qualification,1748413,0.25,2026-02-06,2026-05-03,,Open
+DEAL-0935,Company 935,Technology,Vikram,Website,Closed Lost,4220163,0.0,2025-11-05,2026-05-02,2026-05-02,Lost
+DEAL-0936,Company 936,Healthcare,Ananya,Website,Qualification,2504244,0.25,2025-02-11,2025-03-20,,Open
+DEAL-0937,Company 937,Finance,Rahul,Cold Call,Proposal,3544679,0.5,2025-05-20,2025-10-17,,Open
+DEAL-0938,Company 938,Healthcare,Priya,Referral,Qualification,4270242,0.25,2026-02-14,2026-05-29,,Open
+DEAL-0939,Company 939,Education,Vikram,Partner,Negotiation,1781530,0.75,2025-09-12,2025-12-17,,Open
+DEAL-0940,Company 940,Finance,Sneha,Partner,Negotiation,3423694,0.75,2025-09-15,2025-10-25,,Open
+DEAL-0941,Company 941,Education,Arjun,Referral,Prospecting,765295,0.1,2025-07-07,2025-12-09,,Open
+DEAL-0942,Company 942,Finance,Sneha,LinkedIn,Qualification,1890820,0.25,2025-06-18,2025-11-22,,Open
+DEAL-0943,Company 943,Manufacturing,Rahul,Email Campaign,Prospecting,2103262,0.1,2025-09-12,2025-12-20,,Open
+DEAL-0944,Company 944,Education,Vikram,Cold Call,Negotiation,2122171,0.75,2025-01-11,2025-07-09,,Open
+DEAL-0945,Company 945,Healthcare,Ananya,Cold Call,Closed Won,1250346,1.0,2025-08-25,2026-02-06,2026-02-06,Won
+DEAL-0946,Company 946,Finance,Rahul,Email Campaign,Proposal,3134903,0.5,2025-09-12,2025-11-18,,Open
+DEAL-0947,Company 947,Retail,Vikram,Partner,Closed Won,4465743,1.0,2025-12-23,2026-01-15,2026-01-15,Won
+DEAL-0948,Company 948,Finance,Vikram,Referral,Closed Lost,3843092,0.0,2025-10-11,2026-01-10,2026-01-10,Lost
+DEAL-0949,Company 949,Technology,Vikram,LinkedIn,Proposal,2975609,0.5,2026-08-13,2026-09-29,,Open
+DEAL-0950,Company 950,Education,Vikram,LinkedIn,Qualification,4873416,0.25,2026-08-09,2027-01-13,,Open
+DEAL-0951,Company 951,Finance,Sneha,Website,Qualification,1609049,0.25,2025-07-01,2025-07-19,,Open
+DEAL-0952,Company 952,Healthcare,Rahul,Cold Call,Qualification,1117979,0.25,2025-08-03,2025-11-26,,Open
+DEAL-0953,Company 953,Technology,Priya,Website,Negotiation,4216289,0.75,2025-11-05,2026-01-21,,Open
+DEAL-0954,Company 954,Finance,Sneha,Email Campaign,Proposal,2334798,0.5,2026-03-01,2026-04-12,,Open
+DEAL-0955,Company 955,Finance,Rahul,LinkedIn,Proposal,829105,0.5,2025-03-10,2025-06-28,,Open
+DEAL-0956,Company 956,Manufacturing,Ananya,Partner,Prospecting,950853,0.1,2025-06-19,2025-08-21,,Open
+DEAL-0957,Company 957,Technology,Ananya,LinkedIn,Proposal,4619146,0.5,2025-05-12,2025-10-03,,Open
+DEAL-0958,Company 958,Education,Arjun,Email Campaign,Proposal,1531177,0.5,2026-01-15,2026-05-20,,Open
+DEAL-0959,Company 959,Retail,Arjun,Partner,Qualification,2193167,0.25,2026-04-09,2026-09-28,,Open
+DEAL-0960,Company 960,Technology,Sneha,Cold Call,Closed Won,1595329,1.0,2026-01-04,2026-05-22,2026-05-22,Won
+DEAL-0961,Company 961,Retail,Vikram,Cold Call,Qualification,3784942,0.25,2025-02-13,2025-05-22,,Open
+DEAL-0962,Company 962,Manufacturing,Vikram,Referral,Closed Won,2871105,1.0,2025-05-25,2025-11-02,2025-11-02,Won
+DEAL-0963,Company 963,Healthcare,Vikram,Email Campaign,Proposal,758669,0.5,2025-07-25,2025-09-29,,Open
+DEAL-0964,Company 964,Finance,Vikram,Referral,Prospecting,777467,0.1,2025-01-07,2025-02-24,,Open
+DEAL-0965,Company 965,Finance,Priya,Partner,Prospecting,4798584,0.1,2025-02-11,2025-06-27,,Open
+DEAL-0966,Company 966,Technology,Sneha,Website,Prospecting,2357199,0.1,2026-03-20,2026-08-17,,Open
+DEAL-0967,Company 967,Technology,Rahul,Cold Call,Closed Won,3089316,1.0,2025-03-19,2025-05-21,2025-05-21,Won
+DEAL-0968,Company 968,Manufacturing,Arjun,LinkedIn,Proposal,4017454,0.5,2025-02-27,2025-04-22,,Open
+DEAL-0969,Company 969,Manufacturing,Vikram,LinkedIn,Prospecting,3260912,0.1,2026-04-29,2026-08-18,,Open
+DEAL-0970,Company 970,Technology,Rahul,Referral,Qualification,3801531,0.25,2026-01-13,2026-02-02,,Open
+DEAL-0971,Company 971,Manufacturing,Sneha,Email Campaign,Closed Lost,304043,0.0,2025-08-07,2025-10-16,2025-10-16,Lost
+DEAL-0972,Company 972,Manufacturing,Rahul,Cold Call,Prospecting,4354388,0.1,2026-05-01,2026-06-02,,Open
+DEAL-0973,Company 973,Finance,Vikram,LinkedIn,Negotiation,2934991,0.75,2025-01-19,2025-06-13,,Open
+DEAL-0974,Company 974,Retail,Sneha,Email Campaign,Negotiation,1011858,0.75,2026-07-06,2026-09-13,,Open
+DEAL-0975,Company 975,Manufacturing,Arjun,Cold Call,Qualification,2372273,0.25,2025-04-19,2025-08-23,,Open
+DEAL-0976,Company 976,Healthcare,Ananya,Referral,Negotiation,1443488,0.75,2026-05-12,2026-06-14,,Open
+DEAL-0977,Company 977,Healthcare,Priya,Partner,Proposal,4195466,0.5,2025-02-11,2025-03-14,,Open
+DEAL-0978,Company 978,Manufacturing,Arjun,Website,Qualification,3221856,0.25,2025-01-19,2025-05-30,,Open
+DEAL-0979,Company 979,Retail,Sneha,Cold Call,Closed Lost,4427987,0.0,2026-07-05,2026-12-24,2026-12-24,Lost
+DEAL-0980,Company 980,Finance,Priya,Website,Prospecting,3564674,0.1,2025-07-15,2025-10-06,,Open
+DEAL-0981,Company 981,Technology,Rahul,Email Campaign,Closed Won,1267309,1.0,2025-07-29,2025-11-19,2025-11-19,Won
+DEAL-0982,Company 982,Manufacturing,Arjun,LinkedIn,Prospecting,2325598,0.1,2025-09-22,2026-03-18,,Open
+DEAL-0983,Company 983,Technology,Priya,LinkedIn,Qualification,1819107,0.25,2025-12-31,2026-05-03,,Open
+DEAL-0984,Company 984,Manufacturing,Arjun,Email Campaign,Proposal,1864630,0.5,2025-04-06,2025-09-13,,Open
+DEAL-0985,Company 985,Retail,Ananya,Partner,Prospecting,262986,0.1,2026-06-14,2026-09-18,,Open
+DEAL-0986,Company 986,Healthcare,Rahul,LinkedIn,Qualification,4129430,0.25,2025-06-11,2025-08-02,,Open
+DEAL-0987,Company 987,Retail,Ananya,Email Campaign,Proposal,4803954,0.5,2026-05-09,2026-10-12,,Open
+DEAL-0988,Company 988,Retail,Vikram,Partner,Proposal,3159823,0.5,2025-06-16,2025-11-27,,Open
+DEAL-0989,Company 989,Technology,Sneha,Referral,Closed Won,2053011,1.0,2025-11-07,2025-11-22,2025-11-22,Won
+DEAL-0990,Company 990,Retail,Sneha,Referral,Prospecting,1006011,0.1,2025-05-13,2025-09-06,,Open
+DEAL-0991,Company 991,Technology,Sneha,Partner,Proposal,4398366,0.5,2026-03-26,2026-08-09,,Open
+DEAL-0992,Company 992,Finance,Ananya,Referral,Negotiation,1497922,0.75,2026-04-24,2026-09-04,,Open
+DEAL-0993,Company 993,Finance,Sneha,Partner,Negotiation,734076,0.75,2026-05-01,2026-09-18,,Open
+DEAL-0994,Company 994,Healthcare,Arjun,Partner,Proposal,320001,0.5,2025-11-22,2026-05-15,,Open
+DEAL-0995,Company 995,Technology,Vikram,Referral,Prospecting,1767826,0.1,2025-03-15,2025-06-30,,Open
+DEAL-0996,Company 996,Manufacturing,Arjun,Cold Call,Negotiation,2908214,0.75,2025-01-04,2025-03-11,,Open
+DEAL-0997,Company 997,Healthcare,Arjun,LinkedIn,Closed Won,1305959,1.0,2025-10-04,2026-03-19,2026-03-19,Won
+DEAL-0998,Company 998,Healthcare,Sneha,Website,Prospecting,2406068,0.1,2025-11-20,2026-01-27,,Open
+DEAL-0999,Company 999,Healthcare,Ananya,Website,Negotiation,3920019,0.75,2025-10-23,2026-03-27,,Open
+DEAL-1000,Company 1000,Technology,Priya,Website,Qualification,1485367,0.25,2026-02-24,2026-05-30,,Open
